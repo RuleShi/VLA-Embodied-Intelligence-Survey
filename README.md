@@ -130,18 +130,17 @@ This section reviews approaches toward practical deployment, including:
 
 ---
 
-# 🧠 Capability Expansion
+## 🧠 Capability Expansion
 
 
-Reliable embodied intelligence requires robust performance beyond training environments.
+To overcome the limitations of imitation learning, recent studies extend VLA capabilities with interactive learning, predictive modeling, and long-horizon decision-making.
 
-We review approaches including:
 
-- Geometric representation learning
-- Object-centric perception
-- Language-scene alignment
-- Test-time adaptation
-- Open-world generalization
+This section covers:
+
+- Reinforcement learning
+- World models
+- Long-horizon reasoning
 
 
 ---
