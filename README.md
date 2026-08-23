@@ -108,19 +108,25 @@ mapped into executable robot commands via direct regression, autoregressive pred
 
 ---
 
-# ⚡ Deployment & Generalization
+## ⚡ Deployment & Generalization
 
 
-Large-scale VLAs introduce significant computational and memory requirements, limiting real-world deployment.
+Large-scale VLAs face challenges in computational efficiency and robust adaptation when deployed in real-world environments.
 
-This section summarizes:
 
-- Lightweight architectures
-- Model compression
-- Token optimization
-- Quantization
-- Knowledge distillation
+This section reviews approaches toward practical deployment, including:
 
+
+- Model efficiency
+    - Lightweight architectures
+    - Token optimization
+    - Quantization
+    - Knowledge distillation
+
+- Scene generalization
+    - Geometric representation learning
+    - Object-centric perception
+    - Open-world adaptation
 
 ---
 
