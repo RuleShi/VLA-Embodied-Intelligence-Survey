@@ -239,11 +239,11 @@ VLAs often suffer from performance degradation when deployed in unseen environme
 
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
-|2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
-|2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
-|2025|arXiv|[UniVLA: Learning to Act Anywhere with Task-centric Latent Actions](https://arxiv.org/abs/2505.06111)|[🌐](website)|-|
-|2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
-|2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
+|2024|arXiv|[OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246)|[🌐](https://openvla.github.io/)|[💻](https://github.com/openvla/openvla)|
+|2025|arXiv|[WorldVLA: Towards Autoregressive Action World Model](https://arxiv.org/abs/2506.21539)|-|[💻](https://github.com/alibaba-damo-academy/RynnVLA-002)|
+|2025|arXiv|[UniVLA: Learning to Act Anywhere with Task-centric Latent Actions](https://arxiv.org/abs/2505.06111)|-|[💻](https://github.com/OpenDriveLab/UniVLA)|
+|2026|arXiv|[VLA-JEPA: Enhancing Vision-Language-Action Model with Latent World Model](https://arxiv.org/abs/2602.10098)|[🌐](https://ginwind.github.io/VLA-JEPA/)|[💻](https://github.com/ginwind/VLA-JEPA)|
+|2026|arXiv|[StarVLA-α: Reducing Complexity in Vision-Language-Action Systems](https://arxiv.org/abs/2604.11757)|-|[💻](https://github.com/starVLA/starVLA)|
 
 ---
 
