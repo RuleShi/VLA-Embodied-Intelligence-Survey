@@ -204,7 +204,7 @@ Model efficiency approaches reduce the computational and memory costs of VLAs th
 
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
-|2025|arXiv|[Action-aware Dynamic Pruning for Efficient Vision-Language-Action Manipulation](https://arxiv.org/abs/2509.22093)|[🌐](website)|-|
+|2025|arXiv|[Action-aware Dynamic Pruning for Efficient Vision-Language-Action Manipulation](https://arxiv.org/abs/2509.22093)|-|[💻](https://github.com/TerryPei/VLA-ADP)|
 |2025|arXiv|[SP-VLA: A Joint Model Scheduling and Token Pruning Approach for VLA Model Acceleration](https://arxiv.org/abs/2506.12723)|-|-|
 |2026|arXiv|[BFA++: Hierarchical Best-Feature-Aware Token Prune for Multi-View Vision Language Action Model](https://arxiv.org/abs/2602.20566)|-|-|
 |2026|arXiv|[ETA-VLA: Efficient Token Adaptation via Temporal Fusion and Intra-LLM Sparsification for Vision-Language-Action Models](https://arxiv.org/abs/2603.25766)|-|-|
@@ -267,8 +267,8 @@ Reinforcement learning enhances VLA capabilities beyond imitation learning by op
 
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
-|2025|arXiv|[GR-RL](paper link)|[🌐](website)|-|
-|2025|arXiv|[VLA-RL: Towards Masterful and General Robotic Manipulation with Scalable Reinforcement Learning](https://arxiv.org/abs/2505.18719)|[🌐](website)|[💻](code)|
+|2025|arXiv|[GR-RL: Going Dexterous and Precise for Long-Horizon Robotic Manipulation](https://arxiv.org/abs/2512.01801)|[🌐](https://seed.bytedance.com/en/gr_rl)|-|
+|2025|arXiv|[VLA-RL: Towards Masterful and General Robotic Manipulation with Scalable Reinforcement Learning](https://arxiv.org/abs/2505.18719)|-|[💻](https://github.com/GuanxingLu/vlarl)|
 |2025|arXiv|[SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning](https://arxiv.org/abs/2509.09674)|-|[💻](https://github.com/PRIME-RL/SimpleVLA-RL)|
 |2026|arXiv|[VLA-OPD: Bridging Offline SFT and Online RL for Vision-Language-Action Models via On-Policy Distillation](https://arxiv.org/abs/2603.26666)|[🌐](https://irpn-lab.github.io/VLA-OPD/)|-|
 |2026|arXiv|[π<sub>RL</sub>: Online RL Fine-tuning for Flow-based Vision-Language-Action Models](https://arxiv.org/abs/2510.25889)|-|[💻](https://github.com/RLinf/RLinf)|
@@ -281,11 +281,11 @@ World models enhance VLA capabilities by learning predictive representations of 
 
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
-|2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
-|2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
-|2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
-|2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
-|2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
+|2025|arXiv|[LaDi-WM: A Latent Diffusion-based World Model for Predictive Manipulation](https://arxiv.org/abs/2505.11528)|-|[💻]|(https://github.com/GuHuangAI/LaDiWM)
+|2025|arXiv|[PIN-WM: Learning Physics-INformed World Models for Non-Prehensile Manipulation](https://arxiv.org/abs/2504.16693)|[🌐](https://pinwm.github.io/)|[💻](https://github.com/XuAdventurer/PIN-WM)|
+|2025|arXiv|[EA-WM: Event-Aware Generative World Model with Structured Kinematic-to-Visual Action Fields](https://arxiv.org/abs/2605.06192)|-|-|
+|2026|arXiv|[Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training](https://arxiv.org/abs/2604.21741)|[🌐](https://hi-wm.github.io/)|-|
+|2026|arXiv|[H-WM: Robotic Task and Motion Planning Guided by Hierarchical World Model](https://arxiv.org/abs/2602.11291)|-|-|
 
 ### Long-Horizon Reasoning
 
@@ -295,11 +295,11 @@ Long-horizon reasoning enhances VLA capabilities for complex multi-step tasks by
 
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
-|2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
-|2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
-|2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
-|2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
-|2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
+|2026|arXiv|[Non-Markovian Long-Horizon Robot Manipulation via Keyframe Chaining](https://arxiv.org/abs/2603.01465)|-|[💻](https://github.com/cytoplastm/KC-VLA)|
+|2026|arXiv|[LiLo-VLA: Compositional Long-Horizon Manipulation via Linked Object-Centric Policies](https://arxiv.org/abs/2602.21531)|[🌐](https://yy-gx.github.io/LiLo-VLA/)|[💻](https://github.com/YY-GX/LiLo-VLA)|
+|2026|arXiv|[BagelVLA: Enhancing Long-Horizon Manipulation via Interleaved Vision-Language-Action Generation](https://arxiv.org/abs/2602.09849)|[🌐](https://cladernyjorn.github.io/BagelVLA.github.io/)|-|
+|2026|arXiv|[AtomVLA: Scalable Post-Training for Robotic Manipulation via Predictive Latent World Models](https://arxiv.org/abs/2603.08519)|-|-|
+|2026|arXiv|[Anticipation-VLA: Solving Long-Horizon Embodied Tasks via Anticipation-based Subgoal Generation](https://arxiv.org/abs/2605.01772)|-|-|
 
 ---
 
