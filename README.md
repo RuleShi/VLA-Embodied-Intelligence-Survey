@@ -64,6 +64,7 @@ models—progressing from early language-conditioned control, open generalist VL
   - [Diffusion-based VLA](#diffusion-based-vla)
   - [Video-Action Models (VAMs)](#video-action-models-vams)
   - [World-Action Models (WAMs)](#world-action-models-wams)
+  - [Datasets](#Datasets)
 
 
 - [⚡ Deployment & Generalization](#deployment--generalization)
@@ -122,6 +123,59 @@ Autoregressive VLAs generate actions sequentially by predicting future action to
 |2025|arXiv|CoT-VLA: Chain-of-Thought Reasoning for Vision-Language-Action Models|🌐|-|
 |2025|arXiv|ChatVLA: Unified Multimodal Understanding and Robot Control|🌐|-|
 |2026|arXiv|AR-VLA|🌐|-|
+
+### Diffusion-based VLA
+
+
+Diffusion-based VLAs generate continuous action trajectories through iterative denoising processes, enabling smooth and multimodal robot control. These methods combine vision-language understanding with diffusion-based action generation for complex manipulation tasks.
+
+| Year | Venue | Paper | Website | Code |
+|------|-------|-------|---------|------|
+|2024|arXiv|[π0: A Vision-Language-Action Flow Model for General Robot Control](paper link)|[🌐](website)|-|
+|2025|arXiv|[SmolVLA: A Small Vision-Language-Action Model](paper link)|[🌐](website)|[💻](code)|
+|2025|arXiv|[DreamVLA: ...](paper link)|[🌐](website)|-|
+|2026|arXiv|[CF-VLA: ...](paper link)|[🌐](website)|-|
+
+### Video-Action Models (VAMs)
+
+
+Video-Action Models extend VLAs by jointly modeling future video dynamics and action sequences. By learning temporal evolution and interaction dynamics, VAMs provide predictive visual priors to improve embodied decision-making.
+
+
+| Year | Venue | Paper | Website | Code |
+|------|-------|-------|---------|------|
+|2025|arXiv|[UVA](paper link)|[🌐](website)|-|
+|2025|arXiv|[VideoVLA](paper link)|[🌐](website)|[💻](code)|
+|2026|arXiv|[DiT4DiT ](paper link)|[🌐](website)|-|
+|2026|arXiv|[S-VAM](paper link)|[🌐](website)|-|
+
+### World-Action Models (WAMs)
+
+
+World-Action Models extend embodied policies by integrating future world-state prediction with action generation. By learning predictive models of environment dynamics, WAMs enable more informed planning and decision-making for long-horizon robotic tasks.
+
+
+| Year | Venue | Paper | Website | Code |
+|------|-------|-------|---------|------|
+|2025|arXiv|[UWM](paper link)|[🌐](website)|-|
+|2026|arXiv|[Fast-WAM](paper link)|[🌐](website)|[💻](code)|
+|2026|arXiv|[OA-WAM](paper link)|[🌐](website)|-|
+|2026|arXiv|[Latent-WAM](paper link)|[🌐](website)|-|
+
+### Datasets
+
+
+Large-scale embodied datasets provide the foundation for training and evaluating VLAs. This section summarizes representative datasets for robot manipulation, embodied instruction following, and real-world deployment.
+
+
+| Dataset | Year | Domain | Website |
+|---------|------|--------|---------|
+| Meta-World | 2021 | Basic Manipulation Benchmark | Multi-task robotic manipulation with 50 simulated tasks | [🌐](https://meta-world.github.io/) |
+| LIBERO | 2023 | Language-Conditioned Manipulation Benchmark | Lifelong robot learning with diverse language-conditioned manipulation tasks | [🌐](https://libero-project.github.io/) |
+| LIBERO-Plus | 2024 | Language-Conditioned Manipulation Benchmark | Robust VLA evaluation under environmental perturbations and distribution shifts | [🌐](https://libero-plus.github.io/) |
+| RoboTwin 2.0 | 2024 | Generalist Embodied Evaluation Benchmark | Bimanual manipulation with diverse object interaction scenarios | [🌐](https://robotwin-platform.github.io/) |
+| CALVIN | 2022 | Language-Conditioned Manipulation Benchmark | Long-horizon language-conditioned robotic manipulation | [🌐](https://github.com/mees/calvin) |
+
 ---
 
 ## ⚡ Deployment & Generalization
@@ -134,7 +188,6 @@ This section reviews approaches toward practical deployment, including:
 
 
 - Model efficiency
-    - Lightweight architectures
     - Token optimization
     - Quantization
     - Knowledge distillation
@@ -142,7 +195,56 @@ This section reviews approaches toward practical deployment, including:
 - Scene generalization
     - Geometric representation learning
     - Object-centric perception
-    - Open-world adaptation
+    - Open-world generalization
+
+### Model Efficiency
+Model efficiency approaches reduce the computational and memory costs of VLAs through parameter reduction, precision optimization, and knowledge transfer.
+
+#### Pruning
+
+
+| Year | Venue | Paper | Website | Code |
+|------|-------|-------|---------|------|
+|2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
+|2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
+|2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
+|2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
+|2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
+
+#### Quantization
+
+
+| Year | Venue | Paper | Website | Code |
+|------|-------|-------|---------|------|
+|2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
+|2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
+|2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
+|2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
+|2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
+
+#### Knowledge Distillation
+
+
+| Year | Venue | Paper | Website | Code |
+|------|-------|-------|---------|------|
+|2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
+|2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
+|2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
+|2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
+|2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
+
+
+### Scene Generalization
+
+VLAs often suffer from performance degradation when deployed in unseen environments due to variations in object configurations, viewpoints, backgrounds, and task conditions.
+
+| Year | Venue | Paper | Website | Code |
+|------|-------|-------|---------|------|
+|2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
+|2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
+|2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
+|2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
+|2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
 
 ---
 
