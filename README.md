@@ -53,6 +53,35 @@ models—progressing from early language-conditioned control, open generalist VL
 
 ---
 
+# 📑 Table of Contents
+
+
+- [🧩 VLA Architecture & Action Generation](#-vla-architecture--action-generation)
+  - [Vision-Language Representation](#vision-language-representation)
+  - [Multimodal Backbone](#multimodal-backbone)
+  - [Action Decoding Paradigms](#action-decoding-paradigms)
+
+
+- [⚡ Deployment & Generalization](#-deployment--generalization)
+  - [Model Efficiency](#model-efficiency)
+  - [Scene Generalization](#scene-generalization)
+
+
+- [🧠 Capability Expansion](#-capability-expansion)
+  - [Reinforcement Learning](#reinforcement-learning)
+  - [World Models](#world-models)
+  - [Long-Horizon Reasoning](#long-horizon-reasoning)
+
+
+- [🏭 Applications](#-applications)
+
+
+- [🔭 Challenges and Future Directions](#-challenges-and-future-directions)
+
+
+- [📖 Citation](#-citation)
+
+
 # 🧩 VLA Architecture
 
 
