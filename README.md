@@ -1,4 +1,4 @@
-# 📚 A Survey of Multi-Paradigm Approaches Toward General-Purpose Embodied Intelligence
+# 🤖 A Survey of Multi-Paradigm Approaches Toward General-Purpose Embodied Intelligence
 
 
 ### 🌟 A comprehensive review of Vision-Language-Action Models and emerging paradigms for general-purpose embodied intelligence
