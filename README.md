@@ -131,9 +131,9 @@ Diffusion-based VLAs generate continuous action trajectories through iterative d
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
 |2024|arXiv|[π0: A Vision-Language-Action Flow Model for General Robot Control](https://arxiv.org/abs/2410.24164))|[🌐](https://www.pi.website/blog/pi0)|-|
-|2025|arXiv|[SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics]((https://arxiv.org/abs/2506.01844))|-|[💻](https://github.com/huggingface/lerobot)|
+|2025|arXiv|[SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics](https://arxiv.org/abs/2506.01844)|-|[💻](https://github.com/huggingface/lerobot)|
 |2025|arXiv|[DreamVLA: A Vision-Language-Action Model Dreamed with Comprehensive World Knowledge](https://arxiv.org/abs/2507.04447)|-|[💻](https://github.com/Zhangwenyao1/DreamVLA)|
-|2026|arXiv|[CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies]((https://arxiv.org/abs/2604.24622))|-|[💻](https://github.com/EmbodiedAI-RoboTron/CF-VLA)|
+|2026|arXiv|[CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies](https://arxiv.org/abs/2604.24622)|-|[💻](https://github.com/EmbodiedAI-RoboTron/CF-VLA)|
 
 ### Video-Action Models (VAMs)
 
@@ -144,8 +144,8 @@ Video-Action Models extend VLAs by jointly modeling future video dynamics and ac
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
 |2025|arXiv|[Unified Video Action Model](https://arxiv.org/abs/2503.00200)|[🌐](https://unified-video-action-model.github.io/)|-|
-|2025|arXiv|[VideoVLA](paper link)|[🌐](website)|[💻](code)|
-|2026|arXiv|[DiT4DiT ](paper link)|[🌐](website)|[💻](https://github.com/ShuangLI59/unified_video_action)|
+|2025|arXiv|[VideoVLA: Video Generators Can Be Generalizable Robot Manipulators](https://arxiv.org/abs/2512.06963)|[🌐](https://videovla-nips2025.github.io/)|[💻](https://github.com/VideoVLA-Project/VideoVLA)|
+|2026|arXiv|[DiT4DiT: Jointly Modeling Video Dynamics and Actions for Generalizable Robot Control](https://arxiv.org/abs/2603.10448)|[🌐](https://dit4dit.github.io/)|[💻](https://github.com/Mondo-Robotics/DiT4DiT)|
 |2026|arXiv|[S-VAM: Shortcut Video-Action Model by Self-Distilling Geometric and Semantic Foresight](https://arxiv.org/abs/2603.16195)|[🌐](https://haodong-yan.github.io/S-VAM/)|[💻](https://github.com/Haodong-Yan/S-VAM)|
 
 ### World-Action Models (WAMs)
