@@ -1,16 +1,17 @@
-# 🤖 A Survey of Multi-Paradigm Approaches Toward General-Purpose Embodied Intelligence
+# 🤖 A Survey of Multi-Paradigm Approaches Toward General-Purpose Embodied Intelligence: A Panoramic Review and Evolutionary Trajectory
 
 
 ### 🌟 A comprehensive review of Vision-Language-Action Models and emerging paradigms for general-purpose embodied intelligence
 
 
-Vision-Language-Action Models (VLAs) provide a unified framework that connects visual perception, language understanding, and robotic control. 
-This repository accompanies our survey, presenting a systematic review of the evolution of embodied intelligence, covering VLA architectures, efficient deployment, scene generalization, capability enhancement, and emerging predictive paradigms including Video-Action Models (VAMs) and World-Action Models (WAMs).
+Vision-Language-Action Models (VLAs) provide a unified framework that connects visual perception, language understanding, and robotic control.
+
+This repository accompanies our survey, presenting a systematic review of the evolution of embodied intelligence, covering VLA architectures, efficient deployment, scene generalization, capability enhancement, and emerging predictive paradigms including Video-Action Models (VAMs) and World Action Models (WAMs).
 
 
 ---
 
-# 📰 News
+## 📰 News
 
 
 - `2026.08` Repository initialized.
@@ -19,18 +20,17 @@ This repository accompanies our survey, presenting a systematic review of the ev
 
 ---
 
-# 📌 Overview
+## 📌 Overview
 
 
 This survey analyzes the evolutionary trajectory of general-purpose embodied intelligence from three perspectives:
 
 
-
-
 - **🧩 VLA Architecture & Action Generation**
-  - Vision-Language Representation
-  - Multimodal Backbone
-  - Action Decoding Paradigms
+  - Autoregressive VLA
+  - Diffusion-based VLA
+  - Video-Action Models (VAMs)
+  - World Action Models (WAMs)
 
 
 - **⚡ Deployment & Generalization**
@@ -43,29 +43,27 @@ This survey analyzes the evolutionary trajectory of general-purpose embodied int
   - World Models
   - Long-Horizon Reasoning
 
-
 <img src="assets/overview.png" width="100%">
+
 <p align="center">
-Figure 1. Chronological roadmap and key milestones of VLAs and WAM (2022–2026). The ffgure depicts the four-stage evolution of embodied policy
-models—progressing from early language-conditioned control, open generalist VLAs, and reasoning-enhanced architectures, to video- and worldaware
- agents leveraging world dynamics.
+Fig. 1. Chronological roadmap and key milestones of VLAs and WAM (2022–2026). The figure depicts the four-stage evolution of embodied policy models—progressing from early language-conditioned control, open generalist VLAs, and reasoning-enhanced architectures, to video- and world-aware agents leveraging world dynamics.
 </p>
 
 ---
 
 
-# 📑 Table of Contents
+## 📑 Table of Contents
 
 
-- [🧩 VLA Architecture & Action Generation](#vla-architecture--action-generation)
+- [🧩 VLA Architecture & Action Generation](#vla-architecture-action-generation)
   - [Autoregressive VLA](#autoregressive-vla)
   - [Diffusion-based VLA](#diffusion-based-vla)
   - [Video-Action Models (VAMs)](#video-action-models-vams)
-  - [World-Action Models (WAMs)](#world-action-models-wams)
-  - [Datasets](#Datasets)
+  - [World Action Models (WAMs)](#world-action-models-wams)
+  - [Datasets](#datasets)
 
 
-- [⚡ Deployment & Generalization](#deployment--generalization)
+- [⚡ Deployment & Generalization](#deployment-generalization)
   - [Model Efficiency](#model-efficiency)
   - [Scene Generalization](#scene-generalization)
 
@@ -76,49 +74,50 @@ models—progressing from early language-conditioned control, open generalist VL
   - [Long-Horizon Reasoning](#long-horizon-reasoning)
 
 
-- [🏭 Applications](#-applications)
+- [🏭 Applications](#applications)
 
 
-- [🔭 Challenges and Future Directions](#-challenges-and-future-directions)
+- [🚧 Challenges and Future Directions](#challenges-and-future-directions)
 
 
-- [📖 Citation](#-citation)
+- [📖 Citation](#citation)
 
 
+<a id="vla-architecture-action-generation"></a>
 ## 🧩 VLA Architecture & Action Generation
 
 
 VLAs have evolved from action-sequence prediction models toward predictive embodied models that incorporate future dynamics and world-state reasoning.
 
 
-This section reviews four major paradigms:
+This section reviews four major model paradigms:
 
 
 - Autoregressive VLA
 - Diffusion-based VLA
 - Video-Action Models (VAMs)
-- World-Action Models (WAMs)
-- Datasets
+- World Action Models (WAMs)
 
+
+Representative datasets and evaluation benchmarks are summarized separately at the end of this section.
 
 <img src="assets/architecture.png" width="100%">
+
 <p align="center">
-Figure 2. Architectural overview of VLAs. Encoding: Heterogeneous inputs are encoded and aligned via cross-modal fusion. Multimodal Reasoning:
-Transformer-based VLM/LLM backbones process fused latent features for high-level decision-making. Action Decoding: Latent representations are
-mapped into executable robot commands via direct regression, autoregressive prediction, or diffusion/ffow matching.
+Fig. 2. Architectural overview of VLAs. Encoding: Heterogeneous inputs are encoded and aligned via cross-modal fusion. Multimodal Reasoning: Transformer-based VLM/LLM backbones process fused latent features for high-level decision-making. Action Decoding: Latent representations are mapped into executable robot commands via direct regression, autoregressive prediction, or diffusion/flow matching.
 </p>
 
 
 ### Autoregressive VLA
 
 
-Autoregressive VLAs generate actions sequentially by predicting future action tokens conditioned on visual observations and language instructions. These methods establish the early paradigm of vision-language-action models by extending large-scale multimodal pretraining to robotic control.
+Autoregressive VLAs formulate robot action generation as conditional sequence prediction, representing actions as tokens or sequence units and predicting them causally from visual observations, language instructions, proprioceptive states, and historical context.
 
 
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
 |2023|arXiv|[RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control](https://arxiv.org/abs/2307.15818)|[🌐](https://robotics-transformer2.github.io/)|-|
-|2024|arXiv|[Robotic Control via Embodied Chain-of-Thought Reasoning](https://arxiv.org/abs/2407.08693)|[🌐](https://embodied-cot.github.io/)|[💻](https://github.com/MichalZawalski/embodied-CoT/))|
+|2024|arXiv|[Robotic Control via Embodied Chain-of-Thought Reasoning](https://arxiv.org/abs/2407.08693)|[🌐](https://embodied-cot.github.io/)|[💻](https://github.com/MichalZawalski/embodied-CoT/)|
 |2025|arXiv|[CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models](https://arxiv.org/abs/2503.22020)|[🌐](https://cot-vla.github.io/)|-|
 |2025|arXiv|[ChatVLA: Unified Multimodal Understanding and Robot Control with Vision-Language-Action Model](https://arxiv.org/abs/2502.14420)|[🌐](https://chatvla.github.io/)|[💻](https://github.com/tutujingyugang1/ChatVLA_public)|
 |2026|arXiv|[AR-VLA: True Autoregressive Action Expert for Vision-Language-Action Models](https://arxiv.org/abs/2603.10126)|[🌐](https://arvla.insait.ai/)|[💻](https://github.com/insait-institute/AR-VLA-lerobot)|
@@ -126,19 +125,19 @@ Autoregressive VLAs generate actions sequentially by predicting future action to
 ### Diffusion-based VLA
 
 
-Diffusion-based VLAs generate continuous action trajectories through iterative denoising processes, enabling smooth and multimodal robot control. These methods combine vision-language understanding with diffusion-based action generation for complex manipulation tasks.
+Diffusion-based and related continuous-generative VLAs model actions in continuous space through iterative denoising or flow-based generation, supporting smooth, fine-grained, and multimodal action trajectories for complex robotic control.
 
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
-|2024|arXiv|[π0: A Vision-Language-Action Flow Model for General Robot Control](https://arxiv.org/abs/2410.24164))|[🌐](https://www.pi.website/blog/pi0)|-|
+|2024|arXiv|[π0: A Vision-Language-Action Flow Model for General Robot Control](https://arxiv.org/abs/2410.24164)|[🌐](https://www.pi.website/blog/pi0)|-|
 |2025|arXiv|[SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics](https://arxiv.org/abs/2506.01844)|-|[💻](https://github.com/huggingface/lerobot)|
 |2025|arXiv|[DreamVLA: A Vision-Language-Action Model Dreamed with Comprehensive World Knowledge](https://arxiv.org/abs/2507.04447)|-|[💻](https://github.com/Zhangwenyao1/DreamVLA)|
 |2026|arXiv|[CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies](https://arxiv.org/abs/2604.24622)|-|[💻](https://github.com/EmbodiedAI-RoboTron/CF-VLA)|
 
-### Video-Action Models (VAMs)
+### Video Action Models (VAMs)
 
 
-Video-Action Models extend VLAs by jointly modeling future video dynamics and action sequences. By learning temporal evolution and interaction dynamics, VAMs provide predictive visual priors to improve embodied decision-making.
+Video Action Models extend VLAs by jointly modeling future video dynamics and action sequences. By learning temporal evolution and interaction dynamics, VAMs provide predictive visual priors to improve embodied decision-making.
 
 
 | Year | Venue | Paper | Website | Code |
@@ -148,11 +147,10 @@ Video-Action Models extend VLAs by jointly modeling future video dynamics and ac
 |2026|arXiv|[DiT4DiT: Jointly Modeling Video Dynamics and Actions for Generalizable Robot Control](https://arxiv.org/abs/2603.10448)|[🌐](https://dit4dit.github.io/)|[💻](https://github.com/Mondo-Robotics/DiT4DiT)|
 |2026|arXiv|[S-VAM: Shortcut Video-Action Model by Self-Distilling Geometric and Semantic Foresight](https://arxiv.org/abs/2603.16195)|[🌐](https://haodong-yan.github.io/S-VAM/)|[💻](https://github.com/Haodong-Yan/S-VAM)|
 
-### World-Action Models (WAMs)
+### World Action Models (WAMs)
 
 
-World-Action Models extend embodied policies by integrating future world-state prediction with action generation. By learning predictive models of environment dynamics, WAMs enable more informed planning and decision-making for long-horizon robotic tasks.
-
+World Action Models extend embodied policies by integrating future world-state prediction with action generation. By learning predictive models of environment dynamics, WAMs enable more informed planning and decision-making for long-horizon robotic tasks.
 
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
@@ -164,14 +162,14 @@ World-Action Models extend embodied policies by integrating future world-state p
 ### Datasets
 
 
-Large-scale embodied datasets provide the foundation for training and evaluating VLAs. This section summarizes representative datasets for robot manipulation, embodied instruction following, and real-world deployment.
+Datasets and benchmarks for VLAs have evolved from basic manipulation toward language-conditioned control, long-horizon planning, robustness evaluation, and multi-embodiment transfer. This section highlights five representative benchmarks discussed in the survey.
 
 
 | Dataset | Year | Domain | Website | Code |
 |---------|------|--------|---------|------|
 | [Meta-World](https://arxiv.org/abs/1910.10897) | 2021 | Multi-task robotic manipulation with 50 simulated tasks | [🌐](https://meta-world.github.io/) | [💻](https://github.com/Farama-Foundation/Metaworld) |
 | [LIBERO](https://arxiv.org/abs/2306.03310) | 2023 | Lifelong robot learning with diverse language-conditioned manipulation tasks | [🌐](https://libero-project.github.io/intro.html) | -  |
-| [LIBERO-Plus](https://arxiv.org/abs/2510.13626) | 2024 | Robust VLA evaluation under environmental perturbations and distribution shifts | [🌐](https://sylvestf.github.io/LIBERO-plus/) |[💻](https://github.com/sylvestf/LIBERO-plus) |
+| [LIBERO-Plus](https://arxiv.org/abs/2510.13626) | 2025 | Robust VLA evaluation under environmental perturbations and distribution shifts | [🌐](https://sylvestf.github.io/LIBERO-plus/) |[💻](https://github.com/sylvestf/LIBERO-plus) |
 | [RoboTwin 2.0](https://arxiv.org/abs/2506.18088) | 2025 | Bimanual manipulation with diverse object interaction scenarios | [🌐](https://robotwin-platform.github.io/) | [💻](https://github.com/robotwin-Platform/robotwin) |
 | [CALVIN](https://arxiv.org/abs/2112.03227) | 2022 | Long-horizon language-conditioned robotic manipulation | [🌐](http://calvin.cs.uni-freiburg.de/) | - |
 
@@ -187,29 +185,33 @@ dynamics.
 
 ---
 
+<a id="deployment-generalization"></a>
 ## ⚡ Deployment & Generalization
 
 
 Large-scale VLAs face challenges in computational efficiency and robust adaptation when deployed in real-world environments.
 
 
-This section reviews approaches toward practical deployment, including:
+This section reviews approaches toward practical deployment and robust generalization, including:
 
 
 - Model efficiency
-    - Token optimization
+    - Visual token pruning
     - Quantization
     - Knowledge distillation
 
 - Scene generalization
-    - Geometric representation learning
-    - Object-centric perception
-    - Open-world generalization
+    - Spatial-geometric perception and object-centric representation
+    - World-model-assisted generalization
+    - Inference-time intervention and multi-skill composition
 
 ### Model Efficiency
-Model efficiency approaches reduce the computational and memory costs of VLAs through parameter reduction, precision optimization, and knowledge transfer.
 
-#### Pruning
+
+Model efficiency approaches reduce VLA computational and memory overhead through visual token pruning, low-precision quantization, and knowledge distillation.
+
+
+#### Visual Token Pruning
 
 
 | Year | Venue | Paper | Website | Code |
@@ -239,13 +241,14 @@ Model efficiency approaches reduce the computational and memory costs of VLAs th
 |2025|arXiv|[DualVLA: Building a Generalizable Embodied Agent via Partial Decoupling of Reasoning and Action](https://arxiv.org/abs/2511.22134)|[🌐](https://costaliya.github.io/DualVLA/)|-|
 |2026|arXiv|[ActDistill: General Action-Guided Self-Derived Distillation for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2511.18082)|-|-|
 |2026|arXiv|[SnapFlow: One-Step Action Generation for Flow-Matching VLAs via Progressive Self-Distillation](https://arxiv.org/abs/2604.05656)|-|-|
-|2026|arXiv|[Shallow-π: Knowledge Distillation for Flow-based VLAs](https://arxiv.org/abs/2601.20262)]|[🌐](https://icsl-jeon.github.io/shallow-pi/)|[💻](https://github.com/icsl-Jeon/openpi)|
+|2026|arXiv|[Shallow-π: Knowledge Distillation for Flow-based VLAs](https://arxiv.org/abs/2601.20262)|[🌐](https://icsl-jeon.github.io/shallow-pi/)|[💻](https://github.com/icsl-Jeon/openpi)|
 |2026|arXiv|[DySL-VLA: Efficient Vision-Language-Action Model Inference via Dynamic-Static Layer-Skipping for Robot Manipulation](https://arxiv.org/abs/2602.22896)|-|[💻](https://github.com/PKU-SEC-Lab/DYSL_VLA)|
 
 
 ### Scene Generalization
 
-VLAs often suffer from performance degradation when deployed in unseen environments due to variations in object configurations, viewpoints, backgrounds, and task conditions.
+
+To address VLA performance degradation in out-of-distribution environments, current methods mainly follow three routes: spatial-geometric perception, world-model-assisted prediction, and inference-time intervention with multi-skill composition.
 
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
@@ -257,6 +260,7 @@ VLAs often suffer from performance degradation when deployed in unseen environme
 
 ---
 
+<a id="capability-expansion"></a>
 ## 🧠 Capability Expansion
 
 
@@ -291,9 +295,9 @@ World models enhance VLA capabilities by learning predictive representations of 
 
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
-|2025|arXiv|[LaDi-WM: A Latent Diffusion-based World Model for Predictive Manipulation](https://arxiv.org/abs/2505.11528)|-|[💻]|(https://github.com/GuHuangAI/LaDiWM)
+|2025|arXiv|[LaDi-WM: A Latent Diffusion-based World Model for Predictive Manipulation](https://arxiv.org/abs/2505.11528)|-|[💻](https://github.com/GuHuangAI/LaDiWM)|
 |2025|arXiv|[PIN-WM: Learning Physics-INformed World Models for Non-Prehensile Manipulation](https://arxiv.org/abs/2504.16693)|[🌐](https://pinwm.github.io/)|[💻](https://github.com/XuAdventurer/PIN-WM)|
-|2025|arXiv|[EA-WM: Event-Aware Generative World Model with Structured Kinematic-to-Visual Action Fields](https://arxiv.org/abs/2605.06192)|-|-|
+|2026|arXiv|[EA-WM: Event-Aware Generative World Model with Structured Kinematic-to-Visual Action Fields](https://arxiv.org/abs/2605.06192)|-|-|
 |2026|arXiv|[Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training](https://arxiv.org/abs/2604.21741)|[🌐](https://hi-wm.github.io/)|-|
 |2026|arXiv|[H-WM: Robotic Task and Motion Planning Guided by Hierarchical World Model](https://arxiv.org/abs/2602.11291)|-|-|
 
@@ -311,60 +315,59 @@ Long-horizon reasoning enhances VLA capabilities for complex multi-step tasks by
 |2026|arXiv|[AtomVLA: Scalable Post-Training for Robotic Manipulation via Predictive Latent World Models](https://arxiv.org/abs/2603.08519)|-|-|
 |2026|arXiv|[Anticipation-VLA: Solving Long-Horizon Embodied Tasks via Anticipation-based Subgoal Generation](https://arxiv.org/abs/2605.01772)|-|-|
 
-<img src="assets/efficiency_generalization.png" width="100%">
 <p align="center">
-Fig. 4. Taxonomic overview of technical routes for VLAs eﬀﬀciency, scene generalization, and capability expansion. It outlines the core research
-directions of VLAs: enhancing model eﬀﬀciency via pruning, quantization, and knowledge distillation; overcoming scene generalization bottlenecks by
-leveraging spatial geometric perception and adaptation; and exploring emerging capability expansion through reinforcement learning, world models,
-and long-horizon tasks. The key technical pathways, representative systems, and target goals for each direction are comprehensively summarized.
+Fig. 4. Taxonomic overview of technical routes for VLA model efficiency, scene generalization, and capability expansion. It outlines the core research directions of VLAs: enhancing model efficiency via pruning, quantization, and knowledge distillation; overcoming scene generalization bottlenecks by leveraging spatial geometric perception and adaptation; and exploring emerging capability expansion through reinforcement learning, world models, and long-horizon tasks.
 </p>
 ---
 
 
 
+<a id="applications"></a>
 ## 🏭 Applications
 
 
 Representative applications include:
 
 
-🏠 Household and Service Robotics
+🏠 Household and Service Robots
 
-🏥 Healthcare and Surgical Robotics
+🏥 Surgical and Medical Assistance Robots
 
 🚗 Autonomous Driving and Navigation
 
-🏭 Industrial Manipulation
+🏭 Industrial and Manufacturing Robots
 
-### 🏠 Household and Service Robotics
+
+### 🏠 Household and Service Robots
+
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
 
 
-### 🏥 Healthcare and Surgical Robotics
+### 🏥 Surgical and Medical Assistance Robots
+
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
 
 
 ### 🚗 Autonomous Driving and Navigation
+
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
 
 
-### 🏭 Industrial Manipulation
+### 🏭 Industrial and Manufacturing Robots
+
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
 
 <img src="assets/application.png" width="100%">
 <p align="center">
-Fig. 5. Application landscape and design priorities of VLAs across four representative domains. A systematic overview of VLA model deployment
-topologies across domestic service, surgical operations, autonomous driving, and industrial manufacturing. The diagram illustrates how practical
-domain requirements—such as open-environment adaptation, clinical safety, road safety, and production reliability—determine the design priorities
-of VLA models, directing them toward generalization, control precision, foresight planning, and skill reuse, respectively, alongside representative
-systems in each ffeld.
+Fig. 5. Application landscape and design priorities of Vision-Language-Action (VLA) models across four representative domains. A systematic overview of VLA model deployment topologies across domestic service (5.1), surgical operations (5.2), autonomous driving (5.3), and industrial manufacturing (5.4). The diagram illustrates how practical domain requirements—such as open-environment adaptation, clinical safety, road safety, and production reliability—determine the design priorities of VLA models, directing them toward generalization, control precision, foresight planning, and skill reuse, respectively, alongside representative systems in each field.
 </p>
 ---
 
+<a id="challenges-and-future-directions"></a>
 ## 🚧 Challenges and Future Directions
 
 
@@ -374,39 +377,39 @@ Despite rapid progress in Vision-Language-Action models, significant gaps remain
 ### Challenges
 
 
-#### 🌍 Open-World Generalization
+#### 🌍 Limitations in Cross-Scene Generalization
 
-Current VLAs perform well within training distributions but often struggle with unseen tasks, environments, robot embodiments, and long-tail disturbances. Improving transferable representations and robust adaptation remains a fundamental challenge.
-
-
-#### ⚡ Lightweight Deployment and Real-Time Control
-
-Large-scale VLAs provide strong semantic understanding but introduce high computational costs and inference latency. Efficient architectures, model compression, and real-time control strategies are required for practical deployment.
+Current VLAs often perform stably within the training distribution but degrade on unseen tasks, scenes, robot embodiments, and long-tail perturbations. The bottleneck involves not only visual encoding, but also object-relation modeling, spatial-language grounding, and cross-embodiment action alignment.
 
 
-#### 🔄 Data Infrastructure and Continual Learning
+#### 🧠 Fragility in Long-Horizon Task Execution
 
-Existing VLAs mainly rely on static offline datasets and lack effective mechanisms for collecting, filtering, and utilizing deployment experiences, failures, and recovery trajectories.
-
-
-#### 🌐 Physical Understanding and Predictive Modeling
-
-Current models still lack explicit understanding of physical dynamics, object interactions, and future consequences of actions. Integrating predictive models of the environment is essential for reliable decision-making.
+Long-horizon failures arise from the lack of verifiable task-progress representations and closed-loop recovery mechanisms. Errors at key stages can propagate through the execution chain, while historical states are difficult to retrieve and use reliably.
 
 
-#### 🧠 Long-Horizon Reasoning and Planning
+#### ⚡ Bottlenecks in Lightweight Deployment and Real-Time Control
 
-Complex real-world tasks require hierarchical planning, persistent memory, progress monitoring, and failure recovery beyond short-horizon reactive policies.
-
-
-#### 🤖 System Architecture and Agentic Collaboration
-
-Future embodied systems require effective coordination among perception, reasoning, planning, action execution, memory, and external tools rather than relying on a single end-to-end policy.
+Large vision-language backbones introduce inference latency that conflicts with real-time closed-loop control and edge deployment. Extreme compression, task-adaptive computation, asynchronous inference, and hierarchical slow-planning/fast-execution architectures remain insufficiently mature.
 
 
-#### 📚 Data Acquisition and Synthetic Data Generation
+#### 🔄 Lack of Continual Learning Ability under the Static-Data Paradigm
 
-Scaling robot data collection remains expensive and inefficient. More realistic simulation environments, synthetic data generation, and scalable data engines are needed.
+Most VLAs are trained once on static offline datasets and lack a stable mechanism for recycling new tasks, failures, and recovery experiences encountered after deployment.
+
+
+#### 🌐 Insufficient Modeling of Physical Laws
+
+Current VLAs rely heavily on statistical learning and lack explicit modeling of contact dynamics, support relations, friction, mass distribution, and other physical constraints that determine action consequences.
+
+
+#### 🤖 Lack of Embodied Agentic Capability
+
+Task decomposition, long-term memory, tool invocation, active exploration, and human-robot collaboration are still typically implemented through separate modules, while unified coordination among high-level reasoning, VLA execution, and world models remains incomplete.
+
+
+#### 📚 Scarcity of Real-World Data and Insufficient Credibility of Alternative Data Sources
+
+Real-robot data are costly and difficult to scale, while human-video and simulation data face cross-embodiment mapping and sim-to-real gaps. Both also lack a stable mapping from visual dynamics to executable robot actions.
 
 
 ---
@@ -414,60 +417,50 @@ Scaling robot data collection remains expensive and inefficient. More realistic 
 ### Future Directions
 
 
-#### 🌍 Robust Generalization in Open Environments
+#### 🌍 Generalization: From In-Distribution Success Toward Robustness in Open Environments
 
-Future VLAs should move beyond fixed benchmark performance toward reliable behavior across diverse tasks, scenes, robot platforms, and real-world perturbations.
-
-
-#### ⚡ Efficient and Deployable Embodied Policies
-
-Future systems may combine large-scale reasoning models with lightweight execution modules, enabling hierarchical architectures where large models plan and smaller models execute.
+Future VLAs should improve cross-task, cross-scene, cross-embodiment, and long-tail robustness, shifting evaluation from fixed-benchmark success toward stable and reliable behavior in open environments.
 
 
-#### 🔄 Continuous Data Feedback Loops
+#### ⚡ Lightweight Deployment: From Large-Scale Models Toward Real-Time, Deployable Embodied Policies
 
-Future embodied systems should continuously collect interaction data, incorporate failure experiences, and update policies through deployment-driven learning.
-
-
-#### 🌐 Physics-Aware Predictive Decision Making
-
-Integrating video dynamics and world models can provide future-state prediction and action consequence reasoning, enabling more proactive and reliable control.
+Future systems should combine model compression with action chunking, asynchronous inference, streaming control, and hierarchical architectures in which large models reason at a high level while lightweight controllers execute in real time.
 
 
-#### 🧠 Long-Horizon Autonomous Reasoning
+#### 🔄 Data Flywheel: From Static Datasets Toward a Continuously Evolving Data Engine
 
-Future VLAs should integrate hierarchical planning, memory, verification, and recovery mechanisms to support complex multi-stage tasks.
-
-
-#### 🤖 Autonomous Embodied Agents
-
-VLAs are expected to evolve toward agentic systems with reasoning, tool use, self-correction, and coordinated perception-action capabilities.
+Future embodied systems should continuously collect deployment successes and failures, filter useful trajectories, retrain policies, and redeploy improved models to form a closed-loop data engine for continual learning.
 
 
-#### 📚 Scalable Data Engines and Evaluation
+#### 🌐 Physical Knowledge Enhancement: From Data-Driven Toward Modeling Physical Laws
 
-Future progress requires large-scale embodied datasets, realistic simulation platforms, and evaluation protocols that better reflect real-world reliability.
+Future VLAs should incorporate physical priors, affordance knowledge, world-model prediction, and physically grounded simulation to better model support, friction, mass, contact, and action consequences.
+
+
+#### 🧠 Long-Horizon Planning: From Short-Horizon Task Execution Toward Complex Task Reasoning
+
+Future systems should integrate hierarchical planning, long-term memory, closed-loop replanning, reflection, and future-state evaluation to improve consistency and recovery in multi-stage tasks.
+
+
+#### 🤖 Agentification: From VLA Policy Models Toward Autonomous Embodied Agents
+
+VLAs are expected to become execution components within autonomous embodied agents that combine high-level reasoning, memory, tool use, world-model prediction and verification, active exploration, and human-robot collaboration.
+
+
+#### 📚 Synthetic Data: From Low-Cost Scaling Toward Physically Credible Data Generation
+
+Synthetic data should move beyond low-cost scaling toward physically credible, targeted generation of long-tail and failure cases, calibrated through real-world feedback and integrated with data flywheels and world models.
 
 <img src="assets/future_directions.png" width="100%">
+
 <p align="center">
-Fig. 6. Open research directions and critical challenges in VLAs. A systematic summary of seven foundational pathways enabling next-generation
-generalist embodied models: open-world generalization, lightweight deployment and real-time control, continuous data ffywheels, physical knowledge
-enhancement, long-horizon planning and memory, autonomous embodied agentization, and physically faithful synthetic data generation.
+Fig. 6. Open research directions and critical challenges in VLAs. The seven pathways are open-world generalization, lightweight deployment and real-time control, continuous data flywheels, physical knowledge enhancement, long-horizon planning and memory, autonomous embodied agentization, and physically faithful synthetic data generation.
 </p>
 
 ---
 
+<a id="citation"></a>
 ## 📖 Citation
 
 
 If you find this survey useful, please consider citing:
-
-
-```bibtex
-@article{shi2026embodied,
-  title={A Survey of Multi-Paradigm Approaches Toward General-Purpose Embodied Intelligence:
-  Panoramic Overview and Evolutionary Trajectory},
-  author={Shi, Ruyu and others},
-  journal={IEEE Transactions on Robotics},
-  year={2026}
-}
