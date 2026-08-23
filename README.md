@@ -204,33 +204,33 @@ Model efficiency approaches reduce the computational and memory costs of VLAs th
 
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
-|2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
-|2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
-|2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
-|2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
-|2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
+|2025|arXiv|[Action-aware Dynamic Pruning for Efficient Vision-Language-Action Manipulation](https://arxiv.org/abs/2509.22093)|[🌐](website)|-|
+|2025|arXiv|[SP-VLA: A Joint Model Scheduling and Token Pruning Approach for VLA Model Acceleration](https://arxiv.org/abs/2506.12723)|-|-|
+|2026|arXiv|[BFA++: Hierarchical Best-Feature-Aware Token Prune for Multi-View Vision Language Action Model](https://arxiv.org/abs/2602.20566)|-|-|
+|2026|arXiv|[ETA-VLA: Efficient Token Adaptation via Temporal Fusion and Intra-LLM Sparsification for Vision-Language-Action Models](https://arxiv.org/abs/2603.25766)|-|-|
+|2026|arXiv|[VLA-Pruner: Temporal-Aware Dual-Level Visual Token Pruning for Efficient Vision-Language-Action Inference](https://arxiv.org/html/2511.16449v1)|-|-|
 
 #### Quantization
 
 
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
-|2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
-|2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
-|2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
-|2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
-|2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
+|2024|arXiv|[Quantization-Aware Imitation-Learning for Resource-Efficient Robotic Control](https://arxiv.org/abs/2412.01034)|-|-|
+|2025|arXiv|[SQAP-VLA: A Synergistic Quantization-Aware Pruning Framework for High-Performance Vision-Language-Action Models](https://arxiv.org/abs/2509.09090)|-|[💻](https://github.com/ecdine/SQAP-VLA)|
+|2026|arXiv|[QVLA: Not All Channels Are Equal in Vision-Language-Action Model's Quantization](https://arxiv.org/abs/2602.03782)|-|[💻](https://github.com/AutoLab-SAI-SJTU/QVLA)|
+|2026|arXiv|[DyQ-VLA: Temporal-Dynamic-Aware Quantization for Embodied Vision-Language-Action Models](https://arxiv.org/abs/2603.07904)|-|-|
+|2026|arXiv|[BitVLA: 1-bit Vision-Language-Action Models for Robotics Manipulation](https://arxiv.org/abs/2506.07530v1)|-|[💻](https://github.com/ustcwhy/BitVLA)|
 
 #### Knowledge Distillation
 
 
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
-|2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
-|2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
-|2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
-|2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
-|2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
+|2025|arXiv|[DualVLA](https://arxiv.org/abs/2511.22134)|[🌐](https://costaliya.github.io/DualVLA/)|-|
+|2026|arXiv|[ActDistill: General Action-Guided Self-Derived Distillation for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2511.18082)|-|-|
+|2026|arXiv|[SnapFlow: One-Step Action Generation for Flow-Matching VLAs via Progressive Self-Distillation](https://arxiv.org/abs/2604.05656)|-|-|
+|2026|arXiv|[Shallow-π: Knowledge Distillation for Flow-based VLAs](https://arxiv.org/abs/2601.20262)]|[🌐](https://icsl-jeon.github.io/shallow-pi/)|[💻](https://github.com/icsl-Jeon/openpi)|
+|2026|arXiv|[DySL-VLA: Efficient Vision-Language-Action Model Inference via Dynamic-Static Layer-Skipping for Robot Manipulation](https://arxiv.org/abs/2602.22896)|-|[💻](https://github.com/PKU-SEC-Lab/DYSL_VLA)|
 
 
 ### Scene Generalization
