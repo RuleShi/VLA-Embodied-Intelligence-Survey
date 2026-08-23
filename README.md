@@ -1,4 +1,4 @@
-# 🚀 A Survey of Multi-Paradigm Approaches Toward General-Purpose Embodied Intelligence
+# 🤖 A Survey of Multi-Paradigm Approaches Toward General-Purpose Embodied Intelligence
 
 
 ### ⭐ Give us a star if you find this survey useful ⭐
@@ -13,7 +13,7 @@
 - More updates will be added soon.
 
 
-## Overview
+## 📌 Overview
 
 
 Vision-Language-Action Models (VLAs) have emerged as a promising paradigm for general-purpose embodied intelligence by integrating visual perception, language understanding, and robotic control.
@@ -48,7 +48,7 @@ This survey provides a systematic overview of:
 - [Citation](#citation)
 
 
-# VLA Architecture
+# 🧩 VLA Architecture
 
 
 <img src="assets/architecture.png" width="100%">
@@ -57,7 +57,7 @@ This survey provides a systematic overview of:
 VLAs unify visual perception, language understanding, and robotic control within a single framework. This section reviews the evolution of VLA architectures, including vision encoders, multimodal backbones, and action decoding mechanisms.
 
 
-# Efficient Deployment
+# ⚡ Efficient Deployment
 
 
 This section summarizes approaches that improve the practical deployment of VLAs through:
@@ -69,7 +69,7 @@ This section summarizes approaches that improve the practical deployment of VLAs
 - Knowledge distillation
 
 
-# Scene Generalization
+# 🌍 Scene Generalization
 
 
 This section reviews how VLAs improve robustness under open-world environments through:
@@ -80,7 +80,7 @@ This section reviews how VLAs improve robustness under open-world environments t
 - Test-time adaptation
 
 
-# Capability Enhancement
+# 🧠 Capability Enhancement
 
 
 Recent studies extend VLAs beyond imitation learning through:
@@ -91,7 +91,7 @@ Recent studies extend VLAs beyond imitation learning through:
 - Memory and self-reflection mechanisms
 
 
-# Applications
+# 🏭 Applications
 
 
 Representative applications include:
@@ -102,7 +102,7 @@ Representative applications include:
 - Industrial manipulation
 
 
-# Challenges and Future Directions
+# 🔭 Challenges and Future Directions
 
 
 Future embodied intelligence requires further progress in:
@@ -114,7 +114,7 @@ Future embodied intelligence requires further progress in:
 - System-level coordination
 
 
-# Citation
+# 📄 Citation
 
 
 If you find this survey useful, please cite:
