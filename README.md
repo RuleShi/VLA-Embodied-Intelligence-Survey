@@ -57,9 +57,10 @@ models—progressing from early language-conditioned control, open generalist VL
 
 
 - [🧩 VLA Architecture & Action Generation](#-vla-architecture--action-generation)
-  - [Vision-Language Representation](#vision-language-representation)
-  - [Multimodal Backbone](#multimodal-backbone)
-  - [Action Decoding Paradigms](#action-decoding-paradigms)
+  - [Autoregressive VLA](#Autoregressive VLA)
+  - [Diffusion-based VLA](#Diffusion-based VLA)
+  - [Video-Action Models (VAMs)](#Video-Action Models (VAMs))
+  - [World-Action Models (WAMs)](#World-Action Models (WAMs))
 
 
 - [⚡ Deployment & Generalization](#-deployment--generalization)
@@ -85,18 +86,16 @@ models—progressing from early language-conditioned control, open generalist VL
 ## 🧩 VLA Architecture & Action Generation
 
 
-VLAs unify visual perception, language understanding, and action generation within a single framework for embodied decision-making.
+VLAs have evolved from action-sequence prediction models toward predictive embodied models that incorporate future dynamics and world-state reasoning.
 
 
-This section reviews the evolution of VLA architectures, including:
+This section reviews four major paradigms:
 
 
-- Vision-language representation
-- Multimodal backbones
-- Action decoding paradigms
-    - Autoregressive generation
-    - Diffusion-based generation
-    - MLP-based generation
+- Autoregressive VLA
+- Diffusion-based VLA
+- Video-Action Models (VAMs)
+- World-Action Models (WAMs)
 
 
 <img src="assets/architecture.png" width="100%">
@@ -107,12 +106,20 @@ mapped into executable robot commands via direct regression, autoregressive pred
 </p>
 
 
-### Vision-Language Representation
-Vision-language representation serves as the foundation of VLAs by aligning visual observations with language instructions for embodied decision-making.
+### Autoregressive VLA
 
-| Year | Venue | Paper | Website | Code |
-|------|-------|-------|---------|------|
-|      |       |       |         |      |
+
+Autoregressive VLAs generate actions sequentially by predicting future action tokens conditioned on visual observations and language instructions. These methods establish the early paradigm of vision-language-action models by extending large-scale multimodal pretraining to robotic control.
+
+
+| Year | Paper | Website | Code |
+|------|-------|---------|------|
+|2023|RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control|🌐|-|
+|2024|ECoT: Embodied Chain-of-Thought Reasoning for Robot Manipulation|🌐|-|
+|2024|OpenVLA: An Open-Source Vision-Language-Action Model|🌐|💻|
+|2025|CoT-VLA: ...|🌐|-|
+|2025|ChatVLA: ...|🌐|-|
+|2026|AR-VLA: ...|🌐|-|
 ---
 
 ## ⚡ Deployment & Generalization
