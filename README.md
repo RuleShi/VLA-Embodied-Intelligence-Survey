@@ -338,7 +338,14 @@ Representative applications include:
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
 
-
+<img src="assets/application.png" width="100%">
+<p align="center">
+Fig. 5. Application landscape and design priorities of VLAs across four representative domains. A systematic overview of VLA model deployment
+topologies across domestic service, surgical operations, autonomous driving, and industrial manufacturing. The diagram illustrates how practical
+domain requirements—such as open-environment adaptation, clinical safety, road safety, and production reliability—determine the design priorities
+of VLA models, directing them toward generalization, control precision, foresight planning, and skill reuse, respectively, alongside representative
+systems in each ffeld.
+</p>
 ---
 
 ## 🚧 Challenges and Future Directions
