@@ -112,14 +112,13 @@ mapped into executable robot commands via direct regression, autoregressive pred
 Autoregressive VLAs generate actions sequentially by predicting future action tokens conditioned on visual observations and language instructions. These methods establish the early paradigm of vision-language-action models by extending large-scale multimodal pretraining to robotic control.
 
 
-| Year | Paper | Website | Code |
-|------|-------|---------|------|
-|2023|RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control|🌐|-|
-|2024|ECoT: Embodied Chain-of-Thought Reasoning for Robot Manipulation|🌐|-|
-|2024|OpenVLA: An Open-Source Vision-Language-Action Model|🌐|💻|
-|2025|CoT-VLA: ...|🌐|-|
-|2025|ChatVLA: ...|🌐|-|
-|2026|AR-VLA: ...|🌐|-|
+| Year | Venue | Paper | Website | Code |
+|------|-------|-------|---------|------|
+|2023|arXiv|[RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control](https://arxiv.org/abs/2307.15818)|[🌐](https://robotics-transformer2.github.io/)|-|
+|2024|arXiv|ECoT: Chain-of-Thought Reasoning for Vision-Language-Action Models|🌐|-|
+|2025|arXiv|CoT-VLA: Chain-of-Thought Reasoning for Vision-Language-Action Models|🌐|-|
+|2025|arXiv|ChatVLA: Unified Multimodal Understanding and Robot Control|🌐|-|
+|2026|arXiv|AR-VLA|🌐|-|
 ---
 
 ## ⚡ Deployment & Generalization
