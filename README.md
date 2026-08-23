@@ -82,19 +82,21 @@ models—progressing from early language-conditioned control, open generalist VL
 - [📖 Citation](#-citation)
 
 
-# 🧩 VLA Architecture & Action Generation
+## 🧩 VLA Architecture & Action Generation
 
 
-VLAs integrate visual observations, language instructions, and robot states into a unified decision-making framework.
+VLAs unify visual perception, language understanding, and action generation within a single framework for embodied decision-making.
 
-This section reviews:
 
-- Vision encoders
+This section reviews the evolution of VLA architectures, including:
+
+
+- Vision-language representation
 - Multimodal backbones
 - Action decoding paradigms
     - Autoregressive generation
     - Diffusion-based generation
-    - Continuous action modeling
+    - MLP-based generation
 
 
 <img src="assets/architecture.png" width="100%">
