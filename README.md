@@ -98,7 +98,11 @@ This section reviews:
 
 
 <img src="assets/architecture.png" width="100%">
-
+<p align="center">
+Figure 2. Architectural overview of VLAs. Encoding: Heterogeneous inputs are encoded and aligned via cross-modal fusion. Multimodal Reasoning:
+Transformer-based VLM/LLM backbones process fused latent features for high-level decision-making. Action Decoding: Latent representations are
+mapped into executable robot commands via direct regression, autoregressive prediction, or diffusion/ffow matching.
+</p>
 
 ---
 
