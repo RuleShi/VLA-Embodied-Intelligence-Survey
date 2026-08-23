@@ -82,7 +82,7 @@ models—progressing from early language-conditioned control, open generalist VL
 - [📖 Citation](#-citation)
 
 
-# 🧩 VLA Architecture
+# 🧩 VLA Architecture & Action Generation
 
 
 VLAs integrate visual observations, language instructions, and robot states into a unified decision-making framework.
@@ -102,7 +102,7 @@ This section reviews:
 
 ---
 
-# ⚡ Efficient Deployment
+# ⚡ Deployment & Generalization
 
 
 Large-scale VLAs introduce significant computational and memory requirements, limiting real-world deployment.
@@ -118,7 +118,7 @@ This section summarizes:
 
 ---
 
-# 🌍 Scene Generalization
+# 🧠 Capability Expansion
 
 
 Reliable embodied intelligence requires robust performance beyond training environments.
@@ -134,34 +134,7 @@ We review approaches including:
 
 ---
 
-# 🧠 Capability Enhancement
 
-
-Beyond imitation learning, recent studies explore additional mechanisms for improving autonomous decision-making:
-
-
-- Reinforcement learning
-- World models
-- Memory mechanisms
-- Long-horizon planning
-- Self-reflection and recovery
-
-
----
-
-# 🎬 VAM and WAM
-
-
-Recent research extends VLAs by incorporating temporal dynamics and future-state prediction.
-
-We summarize:
-
-- Video-Action Models (VAMs)
-- World-Action Models (WAMs)
-- Predictive decision-making paradigms
-
-
----
 
 # 🏭 Applications
 
