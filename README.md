@@ -322,38 +322,22 @@ Representative applications include:
 ### 🏠 Household and Service Robotics
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
-|2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
-|2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
-|2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
-|2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
-|2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
+
 
 ### 🏥 Healthcare and Surgical Robotics
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
-|2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
-|2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
-|2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
-|2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
-|2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
+
 
 ### 🚗 Autonomous Driving and Navigation
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
-|2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
-|2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
-|2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
-|2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
-|2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
+
 
 ### 🏭 Industrial Manipulation
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
-|2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
-|2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
-|2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
-|2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
-|2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
+
 
 ---
 
