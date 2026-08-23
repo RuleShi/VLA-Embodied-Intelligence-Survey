@@ -167,13 +167,13 @@ World-Action Models extend embodied policies by integrating future world-state p
 Large-scale embodied datasets provide the foundation for training and evaluating VLAs. This section summarizes representative datasets for robot manipulation, embodied instruction following, and real-world deployment.
 
 
-| Dataset | Year | Domain | Website |
-|---------|------|--------|---------|
-| Meta-World | 2021 | Multi-task robotic manipulation with 50 simulated tasks | [🌐](https://meta-world.github.io/) |
-| [LIBERO](https://arxiv.org/abs/2306.03310) | 2023 | Lifelong robot learning with diverse language-conditioned manipulation tasks | [🌐](https://libero-project.github.io/intro.html) |
-| LIBERO-Plus | 2024 | Robust VLA evaluation under environmental perturbations and distribution shifts | [🌐](https://libero-project.github.io/intro.html) |
-| [RoboTwin 2.0](https://arxiv.org/abs/2506.18088) | 2025 | Bimanual manipulation with diverse object interaction scenarios | [🌐](https://github.com/robotwin-Platform/robotwin/) |
-| [CALVIN](https://arxiv.org/abs/2112.03227) | 2022 | Long-horizon language-conditioned robotic manipulation | [🌐](http://calvin.cs.uni-freiburg.de/) |
+| Dataset | Year | Domain | Website | Code |
+|---------|------|--------|---------|------|
+| [Meta-World](https://arxiv.org/abs/1910.10897) | 2021 | Multi-task robotic manipulation with 50 simulated tasks | [🌐](https://meta-world.github.io/) | [💻](https://github.com/Farama-Foundation/Metaworld) |
+| [LIBERO](https://arxiv.org/abs/2306.03310) | 2023 | Lifelong robot learning with diverse language-conditioned manipulation tasks | [🌐](https://libero-project.github.io/intro.html) | -  |
+| [LIBERO-Plus](https://arxiv.org/abs/2510.13626) | 2024 | Robust VLA evaluation under environmental perturbations and distribution shifts | [🌐](https://sylvestf.github.io/LIBERO-plus/) |[💻](https://github.com/sylvestf/LIBERO-plus) |
+| [RoboTwin 2.0](https://arxiv.org/abs/2506.18088) | 2025 | Bimanual manipulation with diverse object interaction scenarios | [🌐](https://robotwin-platform.github.io/) | [💻](https://github.com/robotwin-Platform/robotwin) |
+| [CALVIN](https://arxiv.org/abs/2112.03227) | 2022 | Long-horizon language-conditioned robotic manipulation | [🌐](http://calvin.cs.uni-freiburg.de/) | - |
 
 ---
 
@@ -226,7 +226,7 @@ Model efficiency approaches reduce the computational and memory costs of VLAs th
 
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
-|2025|arXiv|[DualVLA](https://arxiv.org/abs/2511.22134)|[🌐](https://costaliya.github.io/DualVLA/)|-|
+|2025|arXiv|[DualVLA: Building a Generalizable Embodied Agent via Partial Decoupling of Reasoning and Action](https://arxiv.org/abs/2511.22134)|[🌐](https://costaliya.github.io/DualVLA/)|-|
 |2026|arXiv|[ActDistill: General Action-Guided Self-Derived Distillation for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2511.18082)|-|-|
 |2026|arXiv|[SnapFlow: One-Step Action Generation for Flow-Matching VLAs via Progressive Self-Distillation](https://arxiv.org/abs/2604.05656)|-|-|
 |2026|arXiv|[Shallow-π: Knowledge Distillation for Flow-based VLAs](https://arxiv.org/abs/2601.20262)]|[🌐](https://icsl-jeon.github.io/shallow-pi/)|[💻](https://github.com/icsl-Jeon/openpi)|
@@ -241,7 +241,7 @@ VLAs often suffer from performance degradation when deployed in unseen environme
 |------|-------|-------|---------|------|
 |2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
 |2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
-|2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
+|2025|arXiv|[UniVLA: Learning to Act Anywhere with Task-centric Latent Actions](https://arxiv.org/abs/2505.06111)|[🌐](website)|-|
 |2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
 |2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
 
