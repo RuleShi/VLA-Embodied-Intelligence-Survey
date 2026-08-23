@@ -1,66 +1,80 @@
-# 🤖 A Survey of Multi-Paradigm Approaches Toward General-Purpose Embodied Intelligence
+# 📚 A Survey of Multi-Paradigm Approaches Toward General-Purpose Embodied Intelligence
 
 
-### ⭐ Give us a star if you find this survey useful ⭐
+### 🌟 A comprehensive review of Vision-Language-Action Models and emerging paradigms for general-purpose embodied intelligence
 
 
-> A comprehensive survey of Vision-Language-Action Models (VLAs) and emerging paradigms toward general-purpose embodied intelligence.
+Vision-Language-Action Models (VLAs) provide a unified framework that connects visual perception, language understanding, and robotic control. 
+This repository accompanies our survey, presenting a systematic review of the evolution of embodied intelligence, covering VLA architectures, efficient deployment, scene generalization, capability enhancement, and emerging predictive paradigms including Video-Action Models (VAMs) and World-Action Models (WAMs).
 
 
-## News 🔥
+---
 
-- `2026.08`: The repository is initialized.
-- More updates will be added soon.
-
-
-## 📌 Overview
+# 📰 News
 
 
-Vision-Language-Action Models (VLAs) have emerged as a promising paradigm for general-purpose embodied intelligence by integrating visual perception, language understanding, and robotic control.
+- `2026.08` Repository initialized.
+- More updates will be released as the field evolves.
 
-This survey provides a systematic overview of:
 
-- VLA architectures and action generation mechanisms
-- Efficient deployment and model optimization
-- Scene generalization in open environments
-- Capability enhancement through reinforcement learning, world models, and long-horizon reasoning
-- Emerging Video-Action Models (VAMs) and World-Action Models (WAMs)
+---
+
+# 📌 Overview
+
+
+This survey analyzes the evolutionary trajectory of general-purpose embodied intelligence from three perspectives:
+
+
+- **Model Foundation**
+  - VLA architectures
+  - Multimodal representation
+  - Action generation mechanisms
+
+
+- **Deployment Capability**
+  - Efficient model design
+  - Lightweight deployment
+  - Scene generalization
+
+
+- **Future Intelligence**
+  - Reinforcement learning
+  - World models
+  - Long-horizon reasoning
+  - Video- and world-aware embodied agents
 
 
 <img src="assets/overview.png" width="100%">
 
 
-## Table of Contents
-
-
-- [VLA Architecture](#vla-architecture)
-
-- [Efficient Deployment](#efficient-deployment)
-
-- [Scene Generalization](#scene-generalization)
-
-- [Capability Enhancement](#capability-enhancement)
-
-- [Applications](#applications)
-
-- [Challenges and Future Directions](#challenges-and-future-directions)
-
-- [Citation](#citation)
-
+---
 
 # 🧩 VLA Architecture
+
+
+VLAs integrate visual observations, language instructions, and robot states into a unified decision-making framework.
+
+This section reviews:
+
+- Vision encoders
+- Multimodal backbones
+- Action decoding paradigms
+    - Autoregressive generation
+    - Diffusion-based generation
+    - Continuous action modeling
 
 
 <img src="assets/architecture.png" width="100%">
 
 
-VLAs unify visual perception, language understanding, and robotic control within a single framework. This section reviews the evolution of VLA architectures, including vision encoders, multimodal backbones, and action decoding mechanisms.
-
+---
 
 # ⚡ Efficient Deployment
 
 
-This section summarizes approaches that improve the practical deployment of VLAs through:
+Large-scale VLAs introduce significant computational and memory requirements, limiting real-world deployment.
+
+This section summarizes:
 
 - Lightweight architectures
 - Model compression
@@ -69,60 +83,95 @@ This section summarizes approaches that improve the practical deployment of VLAs
 - Knowledge distillation
 
 
+---
+
 # 🌍 Scene Generalization
 
 
-This section reviews how VLAs improve robustness under open-world environments through:
+Reliable embodied intelligence requires robust performance beyond training environments.
+
+We review approaches including:
 
 - Geometric representation learning
 - Object-centric perception
-- World knowledge enhancement
+- Language-scene alignment
 - Test-time adaptation
+- Open-world generalization
 
+
+---
 
 # 🧠 Capability Enhancement
 
 
-Recent studies extend VLAs beyond imitation learning through:
+Beyond imitation learning, recent studies explore additional mechanisms for improving autonomous decision-making:
+
 
 - Reinforcement learning
 - World models
+- Memory mechanisms
 - Long-horizon planning
-- Memory and self-reflection mechanisms
+- Self-reflection and recovery
 
+
+---
+
+# 🎬 VAM and WAM
+
+
+Recent research extends VLAs by incorporating temporal dynamics and future-state prediction.
+
+We summarize:
+
+- Video-Action Models (VAMs)
+- World-Action Models (WAMs)
+- Predictive decision-making paradigms
+
+
+---
 
 # 🏭 Applications
 
 
 Representative applications include:
 
-- Household and service robotics
-- Healthcare robotics
-- Autonomous driving and navigation
-- Industrial manipulation
 
+🏠 Household and Service Robotics
+
+🏥 Healthcare and Surgical Robotics
+
+🚗 Autonomous Driving and Navigation
+
+🏭 Industrial Manipulation
+
+
+---
 
 # 🔭 Challenges and Future Directions
 
 
-Future embodied intelligence requires further progress in:
-
-- Robust generalization
-- Efficient deployment
-- Long-term autonomous operation
-- Data feedback loops
-- System-level coordination
+Current embodied intelligence systems still face challenges in:
 
 
-# 📄 Citation
+- Robust open-world generalization
+- Efficient real-time deployment
+- Long-horizon autonomous execution
+- Data feedback and continual learning
+- System-level integration
 
 
-If you find this survey useful, please cite:
+---
+
+# 📖 Citation
+
+
+If you find this survey useful, please consider citing:
 
 
 ```bibtex
 @article{shi2026embodied,
-  title={A Survey of Multi-Paradigm Approaches Toward General-Purpose Embodied Intelligence},
+  title={A Survey of Multi-Paradigm Approaches Toward General-Purpose Embodied Intelligence:
+  Panoramic Overview and Evolutionary Trajectory},
   author={Shi, Ruyu and others},
   journal={IEEE Transactions on Robotics},
   year={2026}
