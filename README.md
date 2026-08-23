@@ -25,23 +25,23 @@ This repository accompanies our survey, presenting a systematic review of the ev
 This survey analyzes the evolutionary trajectory of general-purpose embodied intelligence from three perspectives:
 
 
-- **Model Foundation**
-  - VLA architectures
-  - Multimodal representation
-  - Action generation mechanisms
 
 
-- **Deployment Capability**
-  - Efficient model design
-  - Lightweight deployment
-  - Scene generalization
+- **🧩 VLA Architecture & Action Generation**
+  - Vision-Language Representation
+  - Multimodal Backbone
+  - Action Decoding Paradigms
 
 
-- **Future Intelligence**
-  - Reinforcement learning
-  - World models
-  - Long-horizon reasoning
-  - Video- and world-aware embodied agents
+- **⚡ Deployment & Generalization**
+  - Model Efficiency
+  - Scene Generalization
+
+
+- **🧠 Capability Expansion**
+  - Reinforcement Learning
+  - World Models
+  - Long-Horizon Reasoning
 
 
 <img src="assets/overview.png" width="100%">
