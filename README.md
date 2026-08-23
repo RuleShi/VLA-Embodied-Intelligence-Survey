@@ -175,6 +175,16 @@ Large-scale embodied datasets provide the foundation for training and evaluating
 | [RoboTwin 2.0](https://arxiv.org/abs/2506.18088) | 2025 | Bimanual manipulation with diverse object interaction scenarios | [🌐](https://robotwin-platform.github.io/) | [💻](https://github.com/robotwin-Platform/robotwin) |
 | [CALVIN](https://arxiv.org/abs/2112.03227) | 2022 | Long-horizon language-conditioned robotic manipulation | [🌐](http://calvin.cs.uni-freiburg.de/) | - |
 
+<img src="assets/datasets.png" width="100%">
+<p align="center">
+Fig. 3. Landscape of dataset and evaluation benchmarks for generalist
+VLAs. Overview of VLA evaluation frameworks categorized into basic
+manipulation benchmarks, language-conditioned manipulation benchmarks,
+ and generalist embodied evaluation benchmarks. Outer visual
+callouts illustrate representative simulation setups and environment
+dynamics.
+</p>
+
 ---
 
 ## ⚡ Deployment & Generalization
@@ -301,6 +311,13 @@ Long-horizon reasoning enhances VLA capabilities for complex multi-step tasks by
 |2026|arXiv|[AtomVLA: Scalable Post-Training for Robotic Manipulation via Predictive Latent World Models](https://arxiv.org/abs/2603.08519)|-|-|
 |2026|arXiv|[Anticipation-VLA: Solving Long-Horizon Embodied Tasks via Anticipation-based Subgoal Generation](https://arxiv.org/abs/2605.01772)|-|-|
 
+<img src="assets/efficiency_generalization.png" width="100%">
+<p align="center">
+Fig. 4. Taxonomic overview of technical routes for VLAs eﬀﬀciency, scene generalization, and capability expansion. It outlines the core research
+directions of VLAs: enhancing model eﬀﬀciency via pruning, quantization, and knowledge distillation; overcoming scene generalization bottlenecks by
+leveraging spatial geometric perception and adaptation; and exploring emerging capability expansion through reinforcement learning, world models,
+and long-horizon tasks. The key technical pathways, representative systems, and target goals for each direction are comprehensively summarized.
+</p>
 ---
 
 
@@ -431,6 +448,12 @@ VLAs are expected to evolve toward agentic systems with reasoning, tool use, sel
 
 Future progress requires large-scale embodied datasets, realistic simulation platforms, and evaluation protocols that better reflect real-world reliability.
 
+<img src="assets/future_directions.png" width="100%">
+<p align="center">
+Fig. 6. Open research directions and critical challenges in VLAs. A systematic summary of seven foundational pathways enabling next-generation
+generalist embodied models: open-world generalization, lightweight deployment and real-time control, continuous data ffywheels, physical knowledge
+enhancement, long-horizon planning and memory, autonomous embodied agentization, and physically faithful synthetic data generation.
+</p>
 
 ---
 
