@@ -53,8 +53,6 @@ models—progressing from early language-conditioned control, open generalist VL
 
 ---
 
-# 📑 Table of Contents
-
 
 # 📑 Table of Contents
 
@@ -260,12 +258,53 @@ This section covers:
 - World models
 - Long-horizon reasoning
 
+### Reinforcement Learning
+
+
+Reinforcement learning enhances VLA capabilities beyond imitation learning by optimizing policies through environment interaction. These approaches improve task performance, adaptation ability, and autonomous decision-making through reward-driven learning.
+
+
+| Year | Venue | Paper | Website | Code |
+|------|-------|-------|---------|------|
+|2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
+|2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
+|2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
+|2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
+|2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
+
+### World Models
+
+
+World models enhance VLA capabilities by learning predictive representations of environment dynamics. By modeling future states and interactions, these approaches provide additional reasoning signals for planning, decision-making, and policy improvement.
+
+
+| Year | Venue | Paper | Website | Code |
+|------|-------|-------|---------|------|
+|2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
+|2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
+|2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
+|2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
+|2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
+
+### Long-Horizon Reasoning
+
+
+Long-horizon reasoning enhances VLA capabilities for complex multi-step tasks by introducing hierarchical planning, memory mechanisms, progress monitoring, and failure recovery strategies.
+
+
+| Year | Venue | Paper | Website | Code |
+|------|-------|-------|---------|------|
+|2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
+|2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
+|2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
+|2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
+|2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
 
 ---
 
 
 
-# 🏭 Applications
+## 🏭 Applications
 
 
 Representative applications include:
@@ -279,10 +318,42 @@ Representative applications include:
 
 🏭 Industrial Manipulation
 
+### 🏠 Household and Service Robotics
+| Year | Venue | Paper | Website | Code |
+|------|-------|-------|---------|------|
+|2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
+|2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
+|2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
+|2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
+|2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
+
+### 🏥 Healthcare and Surgical Robotics
+
+|2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
+|2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
+|2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
+|2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
+|2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
+
+### 🚗 Autonomous Driving and Navigation
+
+|2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
+|2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
+|2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
+|2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
+|2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
+
+### 🏭 Industrial Manipulation
+
+|2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
+|2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
+|2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
+|2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
+|2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
 
 ---
 
-# 🔭 Challenges and Future Directions
+## 🔭 Challenges and Future Directions
 
 
 Current embodied intelligence systems still face challenges in:
@@ -297,7 +368,7 @@ Current embodied intelligence systems still face challenges in:
 
 ---
 
-# 📖 Citation
+## 📖 Citation
 
 
 If you find this survey useful, please consider citing:
