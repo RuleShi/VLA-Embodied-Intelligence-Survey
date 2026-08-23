@@ -56,19 +56,22 @@ models—progressing from early language-conditioned control, open generalist VL
 # 📑 Table of Contents
 
 
-- [🧩 VLA Architecture & Action Generation](#-vla-architecture--action-generation)
-  - [Autoregressive VLA](#Autoregressive VLA)
-  - [Diffusion-based VLA](#Diffusion-based VLA)
-  - [Video-Action Models (VAMs)](#Video-Action Models (VAMs))
-  - [World-Action Models (WAMs)](#World-Action Models (WAMs))
+# 📑 Table of Contents
 
 
-- [⚡ Deployment & Generalization](#-deployment--generalization)
+- [🧩 VLA Architecture & Action Generation](#vla-architecture--action-generation)
+  - [Autoregressive VLA](#autoregressive-vla)
+  - [Diffusion-based VLA](#diffusion-based-vla)
+  - [Video-Action Models (VAMs)](#video-action-models-vams)
+  - [World-Action Models (WAMs)](#world-action-models-wams)
+
+
+- [⚡ Deployment & Generalization](#deployment--generalization)
   - [Model Efficiency](#model-efficiency)
   - [Scene Generalization](#scene-generalization)
 
 
-- [🧠 Capability Expansion](#-capability-expansion)
+- [🧠 Capability Expansion](#capability-expansion)
   - [Reinforcement Learning](#reinforcement-learning)
   - [World Models](#world-models)
   - [Long-Horizon Reasoning](#long-horizon-reasoning)
