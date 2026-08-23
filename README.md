@@ -45,7 +45,11 @@ This survey analyzes the evolutionary trajectory of general-purpose embodied int
 
 
 <img src="assets/overview.png" width="100%">
-
+<p align="center">
+Figure 1. Chronological roadmap and key milestones of VLAs and WAM (2022–2026). The ffgure depicts the four-stage evolution of embodied policy
+models—progressing from early language-conditioned control, open generalist VLAs, and reasoning-enhanced architectures, to video- and worldaware
+ agents leveraging world dynamics.
+</p>
 
 ---
 
