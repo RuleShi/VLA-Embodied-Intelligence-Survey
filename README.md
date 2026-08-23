@@ -328,7 +328,8 @@ Representative applications include:
 |2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
 
 ### 🏥 Healthcare and Surgical Robotics
-
+| Year | Venue | Paper | Website | Code |
+|------|-------|-------|---------|------|
 |2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
 |2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
 |2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
@@ -336,7 +337,8 @@ Representative applications include:
 |2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
 
 ### 🚗 Autonomous Driving and Navigation
-
+| Year | Venue | Paper | Website | Code |
+|------|-------|-------|---------|------|
 |2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
 |2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
 |2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
@@ -344,7 +346,8 @@ Representative applications include:
 |2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
 
 ### 🏭 Industrial Manipulation
-
+| Year | Venue | Paper | Website | Code |
+|------|-------|-------|---------|------|
 |2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
 |2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
 |2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
@@ -353,17 +356,88 @@ Representative applications include:
 
 ---
 
-## 🔭 Challenges and Future Directions
+## 🚧 Challenges and Future Directions
 
 
-Current embodied intelligence systems still face challenges in:
+Despite rapid progress in Vision-Language-Action models, significant gaps remain before achieving general-purpose embodied intelligence. Current VLAs still face challenges in robustness, deployment, continual adaptation, and autonomous decision-making. This section summarizes the major challenges and future research directions toward reliable embodied agents.
 
 
-- Robust open-world generalization
-- Efficient real-time deployment
-- Long-horizon autonomous execution
-- Data feedback and continual learning
-- System-level integration
+### Challenges
+
+
+#### 🌍 Open-World Generalization
+
+Current VLAs perform well within training distributions but often struggle with unseen tasks, environments, robot embodiments, and long-tail disturbances. Improving transferable representations and robust adaptation remains a fundamental challenge.
+
+
+#### ⚡ Lightweight Deployment and Real-Time Control
+
+Large-scale VLAs provide strong semantic understanding but introduce high computational costs and inference latency. Efficient architectures, model compression, and real-time control strategies are required for practical deployment.
+
+
+#### 🔄 Data Infrastructure and Continual Learning
+
+Existing VLAs mainly rely on static offline datasets and lack effective mechanisms for collecting, filtering, and utilizing deployment experiences, failures, and recovery trajectories.
+
+
+#### 🌐 Physical Understanding and Predictive Modeling
+
+Current models still lack explicit understanding of physical dynamics, object interactions, and future consequences of actions. Integrating predictive models of the environment is essential for reliable decision-making.
+
+
+#### 🧠 Long-Horizon Reasoning and Planning
+
+Complex real-world tasks require hierarchical planning, persistent memory, progress monitoring, and failure recovery beyond short-horizon reactive policies.
+
+
+#### 🤖 System Architecture and Agentic Collaboration
+
+Future embodied systems require effective coordination among perception, reasoning, planning, action execution, memory, and external tools rather than relying on a single end-to-end policy.
+
+
+#### 📚 Data Acquisition and Synthetic Data Generation
+
+Scaling robot data collection remains expensive and inefficient. More realistic simulation environments, synthetic data generation, and scalable data engines are needed.
+
+
+---
+
+### Future Directions
+
+
+#### 🌍 Robust Generalization in Open Environments
+
+Future VLAs should move beyond fixed benchmark performance toward reliable behavior across diverse tasks, scenes, robot platforms, and real-world perturbations.
+
+
+#### ⚡ Efficient and Deployable Embodied Policies
+
+Future systems may combine large-scale reasoning models with lightweight execution modules, enabling hierarchical architectures where large models plan and smaller models execute.
+
+
+#### 🔄 Continuous Data Feedback Loops
+
+Future embodied systems should continuously collect interaction data, incorporate failure experiences, and update policies through deployment-driven learning.
+
+
+#### 🌐 Physics-Aware Predictive Decision Making
+
+Integrating video dynamics and world models can provide future-state prediction and action consequence reasoning, enabling more proactive and reliable control.
+
+
+#### 🧠 Long-Horizon Autonomous Reasoning
+
+Future VLAs should integrate hierarchical planning, memory, verification, and recovery mechanisms to support complex multi-stage tasks.
+
+
+#### 🤖 Autonomous Embodied Agents
+
+VLAs are expected to evolve toward agentic systems with reasoning, tool use, self-correction, and coordinated perception-action capabilities.
+
+
+#### 📚 Scalable Data Engines and Evaluation
+
+Future progress requires large-scale embodied datasets, realistic simulation platforms, and evaluation protocols that better reflect real-world reliability.
 
 
 ---
