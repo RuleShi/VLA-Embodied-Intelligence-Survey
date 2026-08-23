@@ -267,11 +267,11 @@ Reinforcement learning enhances VLA capabilities beyond imitation learning by op
 
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
-|2024|arXiv|[OpenVLA](paper link)|[🌐](website)|-|
-|2025|arXiv|[WorldVLA](paper link)|[🌐](website)|[💻](code)|
-|2025|arXiv|[UniVLA](paper link)|[🌐](website)|-|
-|2026|arXiv|[VLA-JEPA](paper link)|[🌐](website)|-|
-|2026|arXiv|[StarVLA-α](paper link)|[🌐](website)|-|
+|2025|arXiv|[GR-RL](paper link)|[🌐](website)|-|
+|2025|arXiv|[VLA-RL: Towards Masterful and General Robotic Manipulation with Scalable Reinforcement Learning](https://arxiv.org/abs/2505.18719)|[🌐](website)|[💻](code)|
+|2025|arXiv|[SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning](https://arxiv.org/abs/2509.09674)|-|[💻](https://github.com/PRIME-RL/SimpleVLA-RL)|
+|2026|arXiv|[VLA-OPD: Bridging Offline SFT and Online RL for Vision-Language-Action Models via On-Policy Distillation](https://arxiv.org/abs/2603.26666)|[🌐](https://irpn-lab.github.io/VLA-OPD/)|-|
+|2026|arXiv|[π<sub>RL</sub>: Online RL Fine-tuning for Flow-based Vision-Language-Action Models](https://arxiv.org/abs/2510.25889)|-|[💻](https://github.com/RLinf/RLinf)|
 
 ### World Models
 
