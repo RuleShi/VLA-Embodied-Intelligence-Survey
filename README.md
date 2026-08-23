@@ -130,10 +130,10 @@ Diffusion-based VLAs generate continuous action trajectories through iterative d
 
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
-|2024|arXiv|[π0: A Vision-Language-Action Flow Model for General Robot Control]([paper link](https://arxiv.org/abs/2410.24164))|[🌐](https://www.pi.website/blog/pi0)|-|
+|2024|arXiv|[π0: A Vision-Language-Action Flow Model for General Robot Control](https://arxiv.org/abs/2410.24164))|[🌐](https://www.pi.website/blog/pi0)|-|
 |2025|arXiv|[SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics]((https://arxiv.org/abs/2506.01844))|-|[💻](https://github.com/huggingface/lerobot)|
-|2025|arXiv|[DreamVLA: ...](paper link)|[🌐](website)|-|
-|2026|arXiv|[CF-VLA: ...](paper link)|[🌐](website)|-|
+|2025|arXiv|[DreamVLA: A Vision-Language-Action Model Dreamed with Comprehensive World Knowledge](https://arxiv.org/abs/2507.04447)|-|[💻](https://github.com/Zhangwenyao1/DreamVLA)|
+|2026|arXiv|[CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies]((https://arxiv.org/abs/2604.24622))|-|[💻](https://github.com/EmbodiedAI-RoboTron/CF-VLA)|
 
 ### Video-Action Models (VAMs)
 
@@ -143,10 +143,10 @@ Video-Action Models extend VLAs by jointly modeling future video dynamics and ac
 
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
-|2025|arXiv|[UVA](paper link)|[🌐](website)|-|
+|2025|arXiv|[Unified Video Action Model](https://arxiv.org/abs/2503.00200)|[🌐](https://unified-video-action-model.github.io/)|-|
 |2025|arXiv|[VideoVLA](paper link)|[🌐](website)|[💻](code)|
-|2026|arXiv|[DiT4DiT ](paper link)|[🌐](website)|-|
-|2026|arXiv|[S-VAM](paper link)|[🌐](website)|-|
+|2026|arXiv|[DiT4DiT ](paper link)|[🌐](website)|[💻](https://github.com/ShuangLI59/unified_video_action)|
+|2026|arXiv|[S-VAM: Shortcut Video-Action Model by Self-Distilling Geometric and Semantic Foresight](https://arxiv.org/abs/2603.16195)|[🌐](https://haodong-yan.github.io/S-VAM/)|[💻](https://github.com/Haodong-Yan/S-VAM)|
 
 ### World-Action Models (WAMs)
 
@@ -156,10 +156,10 @@ World-Action Models extend embodied policies by integrating future world-state p
 
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
-|2025|arXiv|[UWM](paper link)|[🌐](website)|-|
-|2026|arXiv|[Fast-WAM](paper link)|[🌐](website)|[💻](code)|
-|2026|arXiv|[OA-WAM](paper link)|[🌐](website)|-|
-|2026|arXiv|[Latent-WAM](paper link)|[🌐](website)|-|
+|2025|arXiv|[Unified World Models: Coupling Video and Action Diffusion for Pretraining on Large Robotic Datasets](https://arxiv.org/abs/2504.02792)|[🌐](https://weirdlabuw.github.io/uwm/)|[💻](https://github.com/WEIRDLabUW/unified-world-model)|
+|2026|arXiv|[Fast-WAM: Do World Action Models Need Test-time Future Imagination?](https://arxiv.org/abs/2603.16666)|[🌐](https://yuantianyuan01.github.io/FastWAM/)|[💻](https://github.com/yuantianyuan01/FastWAM)|
+|2026|arXiv|[OA-WAM: Object-Addressable World Action Model for Robust Robot Manipulation](https://arxiv.org/abs/2605.06481)|-|-|
+|2026|arXiv|[HarmoWAM: Harmonizing Generalizable and Precise Manipulation via Adaptive World Action Models](https://arxiv.org/abs/2605.10942)|[🌐](https://elbb-yu.github.io/HarmoWAM/)|-|
 
 ### Datasets
 
@@ -169,11 +169,11 @@ Large-scale embodied datasets provide the foundation for training and evaluating
 
 | Dataset | Year | Domain | Website |
 |---------|------|--------|---------|
-| Meta-World | 2021 | Basic Manipulation Benchmark | Multi-task robotic manipulation with 50 simulated tasks | [🌐](https://meta-world.github.io/) |
-| LIBERO | 2023 | Language-Conditioned Manipulation Benchmark | Lifelong robot learning with diverse language-conditioned manipulation tasks | [🌐](https://libero-project.github.io/) |
-| LIBERO-Plus | 2024 | Language-Conditioned Manipulation Benchmark | Robust VLA evaluation under environmental perturbations and distribution shifts | [🌐](https://libero-plus.github.io/) |
-| RoboTwin 2.0 | 2024 | Generalist Embodied Evaluation Benchmark | Bimanual manipulation with diverse object interaction scenarios | [🌐](https://robotwin-platform.github.io/) |
-| CALVIN | 2022 | Language-Conditioned Manipulation Benchmark | Long-horizon language-conditioned robotic manipulation | [🌐](https://github.com/mees/calvin) |
+| Meta-World | 2021 | Multi-task robotic manipulation with 50 simulated tasks | [🌐](https://meta-world.github.io/) |
+| [LIBERO](https://arxiv.org/abs/2306.03310) | 2023 | Lifelong robot learning with diverse language-conditioned manipulation tasks | [🌐](https://libero-project.github.io/intro.html) |
+| LIBERO-Plus | 2024 | Robust VLA evaluation under environmental perturbations and distribution shifts | [🌐](https://libero-project.github.io/intro.html) |
+| [RoboTwin 2.0](https://arxiv.org/abs/2506.18088) | 2025 | Bimanual manipulation with diverse object interaction scenarios | [🌐](https://github.com/robotwin-Platform/robotwin/) |
+| [CALVIN](https://arxiv.org/abs/2112.03227) | 2022 | Long-horizon language-conditioned robotic manipulation | [🌐](http://calvin.cs.uni-freiburg.de/) |
 
 ---
 
