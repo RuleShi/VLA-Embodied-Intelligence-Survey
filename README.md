@@ -106,6 +106,13 @@ Transformer-based VLM/LLM backbones process fused latent features for high-level
 mapped into executable robot commands via direct regression, autoregressive prediction, or diffusion/ffow matching.
 </p>
 
+
+### Vision-Language Representation
+Vision-language representation serves as the foundation of VLAs by aligning visual observations with language instructions for embodied decision-making.
+
+| Year | Venue | Paper | Website | Code |
+|------|-------|-------|---------|------|
+|      |       |       |         |      |
 ---
 
 ## ⚡ Deployment & Generalization
