@@ -137,10 +137,15 @@ Diffusion-based and related continuous-generative VLAs model actions in continuo
 |------|-------|-------|---------|------|
 |2024|arXiv|[π0: A Vision-Language-Action Flow Model for General Robot Control](https://arxiv.org/abs/2410.24164)|[🌐](https://www.pi.website/blog/pi0)|-|
 |2024|arXiv|[TinyVLA [46] ](https://arxiv.org/abs/2410.24164)|[🌐](https://www.pi.website/blog/pi0)|-|
-|2024|arXiv|[DexVLA [47]  ](https://arxiv.org/abs/2410.24164)|[🌐](https://www.pi.website/blog/pi0)|-|
+|2025|arXiv|[DexVLA [47]  ](https://arxiv.org/abs/2410.24164)|[🌐](https://www.pi.website/blog/pi0)|-|
 |2025|arXiv|[SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics](https://arxiv.org/abs/2506.01844)|-|[💻](https://github.com/huggingface/lerobot)|
 |2025|arXiv|[DreamVLA: A Vision-Language-Action Model Dreamed with Comprehensive World Knowledge](https://arxiv.org/abs/2507.04447)|-|[💻](https://github.com/Zhangwenyao1/DreamVLA)|
+|2025|arXiv|[LLaDA-VLA [50] ](https://arxiv.org/abs/2507.04447)|-|[💻](https://github.com/Zhangwenyao1/DreamVLA)|
+|2025|arXiv|[dVLA [51] ](https://arxiv.org/abs/2507.04447)|-|[💻](https://github.com/Zhangwenyao1/DreamVLA)|
 |2026|arXiv|[CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies](https://arxiv.org/abs/2604.24622)|-|[💻](https://github.com/EmbodiedAI-RoboTron/CF-VLA)|
+|2026|arXiv|[VLA-Pilot [52] ](https://arxiv.org/abs/2604.24622)|-|[💻](https://github.com/EmbodiedAI-RoboTron/CF-VLA)|
+|2026|arXiv|[Progressvla [53] ](https://arxiv.org/abs/2604.24622)|-|[💻](https://github.com/EmbodiedAI-RoboTron/CF-VLA)|
+
 
 ### Video Action Models (VAMs)
 
@@ -151,7 +156,13 @@ Video Action Models extend VLAs by jointly modeling future video dynamics and ac
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
 |2025|arXiv|[Unified Video Action Model](https://arxiv.org/abs/2503.00200)|[🌐](https://unified-video-action-model.github.io/)|-|
+|2025|arXiv|[VILP [54]](https://arxiv.org/abs/2503.00200)|[🌐](https://unified-video-action-model.github.io/)|-|
+|2025|arXiv|[ViPRA [55]](https://arxiv.org/abs/2503.00200)|[🌐](https://unified-video-action-model.github.io/)|-|
+|2025|arXiv|[mimic-video [56] ](https://arxiv.org/abs/2503.00200)|[🌐](https://unified-video-action-model.github.io/)|-|
 |2025|arXiv|[VideoVLA: Video Generators Can Be Generalizable Robot Manipulators](https://arxiv.org/abs/2512.06963)|[🌐](https://videovla-nips2025.github.io/)|[💻](https://github.com/VideoVLA-Project/VideoVLA)|
+|2025|arXiv|[CoVAR [58](https://arxiv.org/abs/2512.06963)|[🌐](https://videovla-nips2025.github.io/)|[💻](https://github.com/VideoVLA-Project/VideoVLA)|
+|2026|arXiv|[VERA [62] ](https://arxiv.org/abs/2512.06963)|[🌐](https://videovla-nips2025.github.io/)S-VAM [59] |[💻](https://github.com/VideoVLA-Project/VideoVLA)|
+|2026|arXiv|[VTAM [60]  ](https://arxiv.org/abs/2512.06963)|[🌐](https://videovla-nips2025.github.io/)S-VAM [59] |[💻](https://github.com/VideoVLA-Project/VideoVLA)|
 |2026|arXiv|[DiT4DiT: Jointly Modeling Video Dynamics and Actions for Generalizable Robot Control](https://arxiv.org/abs/2603.10448)|[🌐](https://dit4dit.github.io/)|[💻](https://github.com/Mondo-Robotics/DiT4DiT)|
 |2026|arXiv|[S-VAM: Shortcut Video-Action Model by Self-Distilling Geometric and Semantic Foresight](https://arxiv.org/abs/2603.16195)|[🌐](https://haodong-yan.github.io/S-VAM/)|[💻](https://github.com/Haodong-Yan/S-VAM)|
 
@@ -163,8 +174,13 @@ World Action Models extend embodied policies by integrating future world-state p
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
 |2025|arXiv|[Unified World Models: Coupling Video and Action Diffusion for Pretraining on Large Robotic Datasets](https://arxiv.org/abs/2504.02792)|[🌐](https://weirdlabuw.github.io/uwm/)|[💻](https://github.com/WEIRDLabUW/unified-world-model)|
+|2026|arXiv|[DreamDojo [64] ](https://arxiv.org/abs/2603.16666)|[🌐](https://yuantianyuan01.github.io/FastWAM/)|[💻](https://github.com/yuantianyuan01/FastWAM)|
 |2026|arXiv|[Fast-WAM: Do World Action Models Need Test-time Future Imagination?](https://arxiv.org/abs/2603.16666)|[🌐](https://yuantianyuan01.github.io/FastWAM/)|[💻](https://github.com/yuantianyuan01/FastWAM)|
+|2026|arXiv|[X-WAM [66] ](https://arxiv.org/abs/2603.16666)|[🌐](https://yuantianyuan01.github.io/FastWAM/)|[💻](https://github.com/yuantianyuan01/FastWAM)|
+|2026|arXiv|[Latent-WAM [70] ](https://arxiv.org/abs/2603.16666)|[🌐](https://yuantianyuan01.github.io/FastWAM/)|[💻](https://github.com/yuantianyuan01/FastWAM)|
+|2026|arXiv|[CKT-WAM [69]  ](https://arxiv.org/abs/2603.16666)|[🌐](https://yuantianyuan01.github.io/FastWAM/)|[💻](https://github.com/yuantianyuan01/FastWAM)|
 |2026|arXiv|[OA-WAM: Object-Addressable World Action Model for Robust Robot Manipulation](https://arxiv.org/abs/2605.06481)|-|-|
+|2026|arXiv|[τ0-WM [71] ](https://arxiv.org/abs/2605.06481)|-|-|
 |2026|arXiv|[HarmoWAM: Harmonizing Generalizable and Precise Manipulation via Adaptive World Action Models](https://arxiv.org/abs/2605.10942)|[🌐](https://elbb-yu.github.io/HarmoWAM/)|-|
 
 ### Datasets
@@ -226,9 +242,17 @@ Model efficiency approaches reduce VLA computational and memory overhead through
 |------|-------|-------|---------|------|
 |2025|arXiv|[Action-aware Dynamic Pruning for Efficient Vision-Language-Action Manipulation](https://arxiv.org/abs/2509.22093)|-|[💻](https://github.com/TerryPei/VLA-ADP)|
 |2025|arXiv|[SP-VLA: A Joint Model Scheduling and Token Pruning Approach for VLA Model Acceleration](https://arxiv.org/abs/2506.12723)|-|-|
+|2025|arXiv|[LightVLA [100]  ](https://arxiv.org/html/2511.16449v1)|-|-|
+|2025|arXiv|[SpecPrune-VLA [96]  ](https://arxiv.org/html/2511.16449v1)|-|-|
 |2026|arXiv|[BFA++: Hierarchical Best-Feature-Aware Token Prune for Multi-View Vision Language Action Model](https://arxiv.org/abs/2602.20566)|-|-|
 |2026|arXiv|[ETA-VLA: Efficient Token Adaptation via Temporal Fusion and Intra-LLM Sparsification for Vision-Language-Action Models](https://arxiv.org/abs/2603.25766)|-|-|
 |2026|arXiv|[VLA-Pruner: Temporal-Aware Dual-Level Visual Token Pruning for Efficient Vision-Language-Action Inference](https://arxiv.org/html/2511.16449v1)|-|-|
+|2026|arXiv|[DeepVision-VLA [97] ](https://arxiv.org/html/2511.16449v1)|-|-|
+|2026|arXiv|[CogVLA [101] ](https://arxiv.org/html/2511.16449v1)|-|-|
+|2026|arXiv|[VLA-IAP [93] ](https://arxiv.org/html/2511.16449v1)|-|-|
+
+
+
 
 #### Quantization
 
