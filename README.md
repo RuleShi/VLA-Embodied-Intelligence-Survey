@@ -504,3 +504,8 @@ Fig. 6. Open research directions and critical challenges in VLAs. The seven path
 
 
 If you find this survey useful, please consider citing:
+
+
+## 📄 Paper
+
+📥 [Download PDF](paper/VLA_Embodied_Intelligence_Survey.pdf)
