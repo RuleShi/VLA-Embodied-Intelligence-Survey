@@ -156,13 +156,13 @@ Video Action Models extend VLAs by jointly modeling future video dynamics and ac
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
 |2025|arXiv|[Unified Video Action Model](https://arxiv.org/abs/2503.00200)|[🌐](https://unified-video-action-model.github.io/)|-|
-|2025|arXiv|[VILP [54]](https://arxiv.org/abs/2503.00200)|[🌐](https://unified-video-action-model.github.io/)|-|
-|2025|arXiv|[ViPRA [55]](https://arxiv.org/abs/2503.00200)|[🌐](https://unified-video-action-model.github.io/)|-|
-|2025|arXiv|[mimic-video [56] ](https://arxiv.org/abs/2503.00200)|[🌐](https://unified-video-action-model.github.io/)|-|
+|2025|arXiv|[VILP: Imitation Learning with Latent Video Planning](https://arxiv.org/abs/2502.01784)|-|[💻](https://github.com/ZhengtongXu/VILP)|
+|2025|arXiv|[ViPRA: Video Prediction for Robot Actions](https://arxiv.org/abs/2511.07732)|[🌐](https://vipra-project.github.io/)|[💻](https://github.com/sroutray/vipra)|
+|2025|arXiv|[mimic-video: Video-Action Models for Generalizable Robot Control Beyond VLAs](https://arxiv.org/abs/2512.15692)|[🌐](https://mimic-video.github.io/)|[💻](https://github.com/mimic-video/mimic-video)|
 |2025|arXiv|[VideoVLA: Video Generators Can Be Generalizable Robot Manipulators](https://arxiv.org/abs/2512.06963)|[🌐](https://videovla-nips2025.github.io/)|[💻](https://github.com/VideoVLA-Project/VideoVLA)|
-|2025|arXiv|[CoVAR [58](https://arxiv.org/abs/2512.06963)|[🌐](https://videovla-nips2025.github.io/)|[💻](https://github.com/VideoVLA-Project/VideoVLA)|
-|2026|arXiv|[VERA [62] ](https://arxiv.org/abs/2512.06963)|[🌐](https://videovla-nips2025.github.io/)S-VAM [59] |[💻](https://github.com/VideoVLA-Project/VideoVLA)|
-|2026|arXiv|[VTAM [60]  ](https://arxiv.org/abs/2512.06963)|[🌐](https://videovla-nips2025.github.io/)S-VAM [59] |[💻](https://github.com/VideoVLA-Project/VideoVLA)|
+|2025|arXiv|[CoVAR: Co-generation of Video and Action for Robotic Manipulation via Multi-Modal Diffusion](https://arxiv.org/abs/2512.16023)|-|-|
+|2026|arXiv|[Turning Video Models into Generalist Robot Policies](https://arxiv.org/abs/2605.27817)|[🌐](https://vera.csail.mit.edu/)|[💻](https://github.com/sizhe-li/VERA)|
+|2026|arXiv|[VTAM: Video-Tactile-Action Models for Complex Physical Interaction Beyond VLAs](https://arxiv.org/abs/2603.23481)|[🌐](https://plan-lab.github.io/projects/vtam/)|-|
 |2026|arXiv|[DiT4DiT: Jointly Modeling Video Dynamics and Actions for Generalizable Robot Control](https://arxiv.org/abs/2603.10448)|[🌐](https://dit4dit.github.io/)|[💻](https://github.com/Mondo-Robotics/DiT4DiT)|
 |2026|arXiv|[S-VAM: Shortcut Video-Action Model by Self-Distilling Geometric and Semantic Foresight](https://arxiv.org/abs/2603.16195)|[🌐](https://haodong-yan.github.io/S-VAM/)|[💻](https://github.com/Haodong-Yan/S-VAM)|
 
