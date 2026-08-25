@@ -296,7 +296,7 @@ To address VLA performance degradation in out-of-distribution environments, curr
 |------|-------|-------|---------|------|
 |2024|arXiv|[OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246)|[🌐](https://openvla.github.io/)|[💻](https://github.com/openvla/openvla)|
 |2025|arXiv|[WorldVLA: Towards Autoregressive Action World Model](https://arxiv.org/abs/2506.21539)|-|[💻](https://github.com/alibaba-damo-academy/RynnVLA-002)|
-|2025|arXiv|[π<sub>0</sub>[5]](https://arxiv.org/abs/2506.21539)|-|[💻](https://github.com/alibaba-damo-academy/RynnVLA-002)|
+|2025|arXiv|[π<sub>0</sub>: A Vision-Language-Action Flow Model for General Robot Control](https://arxiv.org/abs/2410.24164)|[🌐](https://www.pi.website/blog/pi0)|-|
 |2025|arXiv|[π<sub>0</sub>-Fast[33]](https://arxiv.org/abs/2506.21539)|-|[💻](https://github.com/alibaba-damo-academy/RynnVLA-002)|
 |2025|arXiv|[UniVLA: Learning to Act Anywhere with Task-centric Latent Actions](https://arxiv.org/abs/2505.06111)|-|[💻](https://github.com/OpenDriveLab/UniVLA)|
 |2026|arXiv|[VLA-JEPA: Enhancing Vision-Language-Action Model with Latent World Model](https://arxiv.org/abs/2602.10098)|[🌐](https://ginwind.github.io/VLA-JEPA/)|[💻](https://github.com/ginwind/VLA-JEPA)|
@@ -329,15 +329,15 @@ Reinforcement learning enhances VLA capabilities beyond imitation learning by op
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
 |2025|arXiv|[GR-RL: Going Dexterous and Precise for Long-Horizon Robotic Manipulation](https://arxiv.org/abs/2512.01801)|[🌐](https://seed.bytedance.com/en/gr_rl)|-|
-|2025|arXiv|[PLD [148] ](https://arxiv.org/abs/2512.01801)|[🌐](https://seed.bytedance.com/en/gr_rl)|-|
-|2025|arXiv|[RPD [151] ](https://arxiv.org/abs/2512.01801)|[🌐](https://seed.bytedance.com/en/gr_rl)|-|
+|2025|arXiv|[Self-Improving Vision-Language-Action Models with Data Generation via Residual RL](https://arxiv.org/abs/2511.00091)|[🌐](https://wenlixiao.com/self-improve-VLA-PLD)|-|
+|2025|arXiv|[Refined Policy Distillation: From VLA Generalists to RL Experts](https://arxiv.org/abs/2503.05833)|[🌐](https://refined-policy-distillation.github.io/)|[💻](https://github.com/Refined-Policy-Distillation/RPD)|
 |2025|arXiv|[VLA-RL: Towards Masterful and General Robotic Manipulation with Scalable Reinforcement Learning](https://arxiv.org/abs/2505.18719)|-|[💻](https://github.com/GuanxingLu/vlarl)|
 |2025|arXiv|[SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning](https://arxiv.org/abs/2509.09674)|-|[💻](https://github.com/PRIME-RL/SimpleVLA-RL)|
 |2026|arXiv|[VLA-OPD: Bridging Offline SFT and Online RL for Vision-Language-Action Models via On-Policy Distillation](https://arxiv.org/abs/2603.26666)|[🌐](https://irpn-lab.github.io/VLA-OPD/)|-|
 |2026|arXiv|[π<sub>RL</sub>: Online RL Fine-tuning for Flow-based Vision-Language-Action Models](https://arxiv.org/abs/2510.25889)|-|[💻](https://github.com/RLinf/RLinf)|
-|2026|arXiv|[IG-RFT [144] ](https://arxiv.org/abs/2510.25889)|-|[💻](https://github.com/RLinf/RLinf)|
+|2026|arXiv|[IG-RFT: An Interaction-Guided RL Framework for VLA Models in Long-Horizon Robotic Manipulation](https://arxiv.org/abs/2602.20715)|-|-|
 |2026|arXiv|[RL-VLA<sup>3</sup>](https://arxiv.org/abs/2510.25889)|-|[💻](https://github.com/RLinf/RLinf)|
-|2026|arXiv|[LongNav-R1 [152] ](https://arxiv.org/abs/2510.25889)|-|[💻](https://github.com/RLinf/RLinf)|
+|2026|arXiv|[LongNav-R1: Horizon-Adaptive Multi-Turn RL for Long-Horizon VLA Navigation](https://arxiv.org/abs/2602.12351)|-|-|
 
 
 ### World Models
@@ -348,16 +348,16 @@ World models enhance VLA capabilities by learning predictive representations of 
 
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
-|2025|arXiv|[OSVI-WM [160] ](https://arxiv.org/abs/2505.11528)|-|[💻](https://github.com/GuHuangAI/LaDiWM)|
+|2025|arXiv|[OSVI-WM: One-Shot Visual Imitation for Unseen Tasks using World-Model-Guided Trajectory Generation](https://arxiv.org/abs/2505.20425)|-|[💻](https://github.com/raktimgg/osvi-wm)|
 |2025|arXiv|[LaDi-WM: A Latent Diffusion-based World Model for Predictive Manipulation](https://arxiv.org/abs/2505.11528)|-|[💻](https://github.com/GuHuangAI/LaDiWM)|
 |2025|arXiv|[PIN-WM: Learning Physics-INformed World Models for Non-Prehensile Manipulation](https://arxiv.org/abs/2504.16693)|[🌐](https://pinwm.github.io/)|[💻](https://github.com/XuAdventurer/PIN-WM)|
 |2026|arXiv|[EA-WM: Event-Aware Generative World Model with Structured Kinematic-to-Visual Action Fields](https://arxiv.org/abs/2605.06192)|-|-|
 |2026|arXiv|[Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training](https://arxiv.org/abs/2604.21741)|[🌐](https://hi-wm.github.io/)|-|
 |2026|arXiv|[H-WM: Robotic Task and Motion Planning Guided by Hierarchical World Model](https://arxiv.org/abs/2602.11291)|-|-|
-|2026|arXiv|[WM-DAgger [162] ](https://arxiv.org/abs/2602.11291)|-|-|
-|2026|arXiv|[ContactGaussian-WM [156] ](https://arxiv.org/abs/2602.11291)|-|-|
-|2026|arXiv|[DDP-WM [155] ](https://arxiv.org/abs/2602.11291)|-|-|
-|2026|arXiv|[WoVR [163] ](https://arxiv.org/abs/2602.11291)|-|-|
+|2026|arXiv|[WM-DAgger: Enabling Efficient Data Aggregation for Imitation Learning with World Models](https://arxiv.org/abs/2604.11351)|-|[💻](https://github.com/czs12354-xxdbd/WM-Dagger)|
+|2026|arXiv|[ContactGaussian-WM: Learning Physics-Grounded World Model from Videos](https://arxiv.org/abs/2602.11021)|[🌐](https://contactgaussian-wm.github.io/)|-|
+|2026|arXiv|[DDP-WM: Disentangled Dynamics Prediction for Efficient World Models](https://arxiv.org/abs/2602.01780)|[🌐](https://hcplab-sysu.github.io/DDP-WM/)|[💻](https://github.com/HCPLab-SYSU/DDP-WM)|
+|2026|arXiv|[WoVR: World Models as Reliable Simulators for Post-Training VLA Policies with RL](https://arxiv.org/abs/2602.13977)|[🌐](https://wovr-corl.github.io/)|-|
 
 
 ### Long-Horizon Reasoning
@@ -373,11 +373,11 @@ Long-horizon reasoning enhances VLA capabilities for complex multi-step tasks by
 |2026|arXiv|[BagelVLA: Enhancing Long-Horizon Manipulation via Interleaved Vision-Language-Action Generation](https://arxiv.org/abs/2602.09849)|[🌐](https://cladernyjorn.github.io/BagelVLA.github.io/)|-|
 |2026|arXiv|[AtomVLA: Scalable Post-Training for Robotic Manipulation via Predictive Latent World Models](https://arxiv.org/abs/2603.08519)|-|-|
 |2026|arXiv|[Anticipation-VLA: Solving Long-Horizon Embodied Tasks via Anticipation-based Subgoal Generation](https://arxiv.org/abs/2605.01772)|-|-|
-|2026|arXiv|[LoHo-Manip [166] ](https://arxiv.org/abs/2605.01772)|-|-|
-|2026|arXiv|[VQ-Memory [169] ](https://arxiv.org/abs/2605.01772)|-|-|
-|2026|arXiv|[TempoFit [170] ](https://arxiv.org/abs/2605.01772)|-|-|
-|2026|arXiv|[HELM [168] ](https://arxiv.org/abs/2605.01772)|-|-|
-|2026|arXiv|[Goal2Skill [174] ](https://arxiv.org/abs/2605.01772)|-|-|
+|2026|arXiv|[Long-Horizon Manipulation via Trace-Conditioned VLA Planning](https://arxiv.org/abs/2604.21924)|[🌐](https://www.liuisabella.com/LoHoManip/)|-|
+|2026|arXiv|[Beyond Short-Horizon: VQ-Memory for Robust Long-Horizon Manipulation in Non-Markovian Simulation Benchmarks](https://arxiv.org/abs/2603.09513)|[🌐](https://vqmemory.github.io/)|-|
+|2026|arXiv|[TempoFit: Plug-and-Play Layer-Wise Temporal KV Memory for Long-Horizon Vision-Language-Action Manipulation](https://arxiv.org/abs/2603.07647)|-|[💻](https://github.com/LucioSunj/TempoFit)|
+|2026|arXiv|[HELM: Harness-Enhanced Long-horizon Memory for Vision-Language-Action Manipulation](https://arxiv.org/abs/2604.18791)|-|-|
+|2026|arXiv|[Goal2Skill: Long-Horizon Manipulation with Adaptive Planning and Reflection](https://arxiv.org/abs/2604.13942)|-|-|
 
 
 <p align="center">
