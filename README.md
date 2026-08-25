@@ -1,5 +1,11 @@
 # 🤖 A Survey of Multi-Paradigm Approaches Toward General-Purpose Embodied Intelligence: A Panoramic Review and Evolutionary Trajectory
 
+### ⭐ Give us a star if you find this survey useful! ⭐
+
+To the best of our knowledge, this work provides a comprehensive survey of **Vision-Language-Action (VLA) models and emerging embodied intelligence paradigms**, covering the evolution of VLA architectures, efficient deployment, scene generalization, capability expansion, and predictive paradigms including **Video-Action Models (VAMs)** and **World Action Models (WAMs)**. 
+
+We will continue to UPDATE this repository with the latest advances in embodied intelligence research, so stay tuned! 🚀✨ We hope this survey can provide useful insights and inspiration for researchers and practitioners interested in general-purpose embodied AI. 🤗
+
 
 ### 🌟 A comprehensive review of Vision-Language-Action Models and emerging paradigms for general-purpose embodied intelligence
 
