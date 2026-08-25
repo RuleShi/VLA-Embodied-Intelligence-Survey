@@ -337,7 +337,7 @@ Reinforcement learning enhances VLA capabilities beyond imitation learning by op
 |2026|arXiv|[π<sub>RL</sub>: Online RL Fine-tuning for Flow-based Vision-Language-Action Models](https://arxiv.org/abs/2510.25889)|-|[💻](https://github.com/RLinf/RLinf)|
 |2026|arXiv|[IG-RFT [144] ](https://arxiv.org/abs/2510.25889)|-|[💻](https://github.com/RLinf/RLinf)|
 |2026|arXiv|[RL-VLA<sup>3</sup>](https://arxiv.org/abs/2510.25889)|-|[💻](https://github.com/RLinf/RLinf)|
-
+|2026|arXiv|[LongNav-R1 [152] ](https://arxiv.org/abs/2510.25889)|-|[💻](https://github.com/RLinf/RLinf)|
 
 
 ### World Models
@@ -348,11 +348,17 @@ World models enhance VLA capabilities by learning predictive representations of 
 
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
+|2025|arXiv|[OSVI-WM [160] ](https://arxiv.org/abs/2505.11528)|-|[💻](https://github.com/GuHuangAI/LaDiWM)|
 |2025|arXiv|[LaDi-WM: A Latent Diffusion-based World Model for Predictive Manipulation](https://arxiv.org/abs/2505.11528)|-|[💻](https://github.com/GuHuangAI/LaDiWM)|
 |2025|arXiv|[PIN-WM: Learning Physics-INformed World Models for Non-Prehensile Manipulation](https://arxiv.org/abs/2504.16693)|[🌐](https://pinwm.github.io/)|[💻](https://github.com/XuAdventurer/PIN-WM)|
 |2026|arXiv|[EA-WM: Event-Aware Generative World Model with Structured Kinematic-to-Visual Action Fields](https://arxiv.org/abs/2605.06192)|-|-|
 |2026|arXiv|[Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training](https://arxiv.org/abs/2604.21741)|[🌐](https://hi-wm.github.io/)|-|
 |2026|arXiv|[H-WM: Robotic Task and Motion Planning Guided by Hierarchical World Model](https://arxiv.org/abs/2602.11291)|-|-|
+|2026|arXiv|[WM-DAgger [162] ](https://arxiv.org/abs/2602.11291)|-|-|
+|2026|arXiv|[ContactGaussian-WM [156] ](https://arxiv.org/abs/2602.11291)|-|-|
+|2026|arXiv|[DDP-WM [155] ](https://arxiv.org/abs/2602.11291)|-|-|
+|2026|arXiv|[WoVR [163] ](https://arxiv.org/abs/2602.11291)|-|-|
+
 
 ### Long-Horizon Reasoning
 
@@ -367,6 +373,12 @@ Long-horizon reasoning enhances VLA capabilities for complex multi-step tasks by
 |2026|arXiv|[BagelVLA: Enhancing Long-Horizon Manipulation via Interleaved Vision-Language-Action Generation](https://arxiv.org/abs/2602.09849)|[🌐](https://cladernyjorn.github.io/BagelVLA.github.io/)|-|
 |2026|arXiv|[AtomVLA: Scalable Post-Training for Robotic Manipulation via Predictive Latent World Models](https://arxiv.org/abs/2603.08519)|-|-|
 |2026|arXiv|[Anticipation-VLA: Solving Long-Horizon Embodied Tasks via Anticipation-based Subgoal Generation](https://arxiv.org/abs/2605.01772)|-|-|
+|2026|arXiv|[LoHo-Manip [166] ](https://arxiv.org/abs/2605.01772)|-|-|
+|2026|arXiv|[VQ-Memory [169] ](https://arxiv.org/abs/2605.01772)|-|-|
+|2026|arXiv|[TempoFit [170] ](https://arxiv.org/abs/2605.01772)|-|-|
+|2026|arXiv|[HELM [168] ](https://arxiv.org/abs/2605.01772)|-|-|
+|2026|arXiv|[Goal2Skill [174] ](https://arxiv.org/abs/2605.01772)|-|-|
+
 
 <p align="center">
 Fig. 4. Taxonomic overview of technical routes for VLA model efficiency, scene generalization, and capability expansion. It outlines the core research directions of VLAs: enhancing model efficiency via pruning, quantization, and knowledge distillation; overcoming scene generalization bottlenecks by leveraging spatial geometric perception and adaptation; and exploring emerging capability expansion through reinforcement learning, world models, and long-horizon tasks.
@@ -390,29 +402,6 @@ Representative applications include:
 
 🏭 Industrial and Manufacturing Robots
 
-
-### 🏠 Household and Service Robots
-
-| Year | Venue | Paper | Website | Code |
-|------|-------|-------|---------|------|
-
-
-### 🏥 Surgical and Medical Assistance Robots
-
-| Year | Venue | Paper | Website | Code |
-|------|-------|-------|---------|------|
-
-
-### 🚗 Autonomous Driving and Navigation
-
-| Year | Venue | Paper | Website | Code |
-|------|-------|-------|---------|------|
-
-
-### 🏭 Industrial and Manufacturing Robots
-
-| Year | Venue | Paper | Website | Code |
-|------|-------|-------|---------|------|
 
 <img src="assets/application.png" width="100%">
 <p align="center">
