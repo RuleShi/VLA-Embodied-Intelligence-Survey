@@ -174,13 +174,13 @@ World Action Models extend embodied policies by integrating future world-state p
 | Year | Venue | Paper | Website | Code |
 |------|-------|-------|---------|------|
 |2025|arXiv|[Unified World Models: Coupling Video and Action Diffusion for Pretraining on Large Robotic Datasets](https://arxiv.org/abs/2504.02792)|[🌐](https://weirdlabuw.github.io/uwm/)|[💻](https://github.com/WEIRDLabUW/unified-world-model)|
-|2026|arXiv|[DreamDojo [64] ](https://arxiv.org/abs/2603.16666)|[🌐](https://yuantianyuan01.github.io/FastWAM/)|[💻](https://github.com/yuantianyuan01/FastWAM)|
+|2026|arXiv|[DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos](https://arxiv.org/abs/2602.06949)|[🌐](https://dreamdojo-world.github.io/)|[💻](https://github.com/NVIDIA/DreamDojo)|
 |2026|arXiv|[Fast-WAM: Do World Action Models Need Test-time Future Imagination?](https://arxiv.org/abs/2603.16666)|[🌐](https://yuantianyuan01.github.io/FastWAM/)|[💻](https://github.com/yuantianyuan01/FastWAM)|
-|2026|arXiv|[X-WAM [66] ](https://arxiv.org/abs/2603.16666)|[🌐](https://yuantianyuan01.github.io/FastWAM/)|[💻](https://github.com/yuantianyuan01/FastWAM)|
-|2026|arXiv|[Latent-WAM [70] ](https://arxiv.org/abs/2603.16666)|[🌐](https://yuantianyuan01.github.io/FastWAM/)|[💻](https://github.com/yuantianyuan01/FastWAM)|
-|2026|arXiv|[CKT-WAM [69]  ](https://arxiv.org/abs/2603.16666)|[🌐](https://yuantianyuan01.github.io/FastWAM/)|[💻](https://github.com/yuantianyuan01/FastWAM)|
+|2026|arXiv|[Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising](https://arxiv.org/abs/2604.26694)|[🌐](https://sharinka0715.github.io/X-WAM/)|[💻](https://github.com/sharinka0715/X-WAM)|
+|2026|arXiv|[Latent-WAM: Latent World Action Modeling for End-to-End Autonomous Driving](https://arxiv.org/abs/2603.24581)|-|-|
+|2026|arXiv|[CKT-WAM: Parameter-Efficient Context Knowledge Transfer Between World Action Models](https://arxiv.org/abs/2605.06247)|-|[💻](https://github.com/YuhuaJiang2002/CKT-WAM)|
 |2026|arXiv|[OA-WAM: Object-Addressable World Action Model for Robust Robot Manipulation](https://arxiv.org/abs/2605.06481)|-|-|
-|2026|arXiv|[τ0-WM [71] ](https://arxiv.org/abs/2605.06481)|-|-|
+|2026|arXiv|[τ0-WM: A Unified Video-Action World Model for Robotic Manipulation](https://arxiv.org/abs/2606.01027)|[🌐](https://tau0-wm.github.io/)|[💻](https://github.com/sii-research/tau-0-wm)|
 |2026|arXiv|[HarmoWAM: Harmonizing Generalizable and Precise Manipulation via Adaptive World Action Models](https://arxiv.org/abs/2605.10942)|[🌐](https://elbb-yu.github.io/HarmoWAM/)|-|
 
 ### Datasets
