@@ -267,7 +267,7 @@ Model efficiency approaches reduce VLA computational and memory overhead through
 |2026|arXiv|[BitVLA: 1-bit Vision-Language-Action Models for Robotics Manipulation](https://arxiv.org/abs/2506.07530v1)|-|[💻](https://github.com/ustcwhy/BitVLA)|
 |2026|arXiv|[QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models](https://arxiv.org/abs/2602.20309)|[🌐](https://quantvla.github.io/)|[💻](https://github.com/AIoT-MLSys-Lab/QuantVLA)|
 |2026|arXiv|[DA-PTQ: Drift-Aware Post-Training Quantization for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2604.11572)|-|-|
-|2026|arXiv|[LiteVLA-Edge [109] ](https://arxiv.org/abs/2509.09090)|-|[💻](https://github.com/ecdine/SQAP-VLA)|
+|2026|arXiv|[LiteVLA-Edge: Quantized On-Device Multimodal Control for Embedded Robotics](https://arxiv.org/abs/2603.03380)|-|-|
 |2026|arXiv|[HBVLA: Pushing 1-Bit Post-Training Quantization for Vision-Language-Action Models](https://arxiv.org/abs/2602.13710)|-|-|
 
 
