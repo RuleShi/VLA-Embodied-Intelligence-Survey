@@ -242,14 +242,14 @@ Model efficiency approaches reduce VLA computational and memory overhead through
 |------|-------|-------|---------|------|
 |2025|arXiv|[Action-aware Dynamic Pruning for Efficient Vision-Language-Action Manipulation](https://arxiv.org/abs/2509.22093)|-|[💻](https://github.com/TerryPei/VLA-ADP)|
 |2025|arXiv|[SP-VLA: A Joint Model Scheduling and Token Pruning Approach for VLA Model Acceleration](https://arxiv.org/abs/2506.12723)|-|-|
-|2025|arXiv|[LightVLA [100]  ](https://arxiv.org/html/2511.16449v1)|-|-|
-|2025|arXiv|[SpecPrune-VLA [96]  ](https://arxiv.org/html/2511.16449v1)|-|-|
+|2025|arXiv|[The Better You Learn, The Smarter You Prune: Towards Efficient Vision-language-action Models via Differentiable Token Pruning](https://arxiv.org/abs/2509.12594)|[🌐](https://liauto-research.github.io/LightVLA/)|[💻](https://github.com/LiAutoAD/LightVLA)|
+|2025|arXiv|[SpecPrune-VLA: Accelerating Vision-Language-Action Models via Action-Aware Self-Speculative Pruning](https://arxiv.org/abs/2509.05614)|-|-|
 |2026|arXiv|[BFA++: Hierarchical Best-Feature-Aware Token Prune for Multi-View Vision Language Action Model](https://arxiv.org/abs/2602.20566)|-|-|
 |2026|arXiv|[ETA-VLA: Efficient Token Adaptation via Temporal Fusion and Intra-LLM Sparsification for Vision-Language-Action Models](https://arxiv.org/abs/2603.25766)|-|-|
 |2026|arXiv|[VLA-Pruner: Temporal-Aware Dual-Level Visual Token Pruning for Efficient Vision-Language-Action Inference](https://arxiv.org/html/2511.16449v1)|-|-|
-|2026|arXiv|[DeepVision-VLA [97] ](https://arxiv.org/html/2511.16449v1)|-|-|
-|2026|arXiv|[CogVLA [101] ](https://arxiv.org/html/2511.16449v1)|-|-|
-|2026|arXiv|[VLA-IAP [93] ](https://arxiv.org/html/2511.16449v1)|-|-|
+|2026|arXiv|[Look Before Acting: Enhancing Vision Foundation Representations for Vision-Language-Action Models](https://arxiv.org/abs/2603.15618)|[🌐](https://deepvision-vla.github.io/)|-|
+|2026|arXiv|[CogVLA: Cognition-Aligned Vision-Language-Action Model via Instruction-Driven Routing & Sparsification](https://arxiv.org/abs/2508.21046)|-|[💻](https://github.com/iLearn-Lab/NeurIPS25-CogVLA)|
+|2026|arXiv|[VLA-IAP: Training-Free Visual Token Pruning via Interaction Alignment for Vision-Language-Action Models](https://arxiv.org/abs/2603.22991)|[🌐](https://chengjt1999.github.io/VLA-IAP.github.io/)|[💻](https://github.com/Chengjt1999/VLA-IAP)|
 
 
 
