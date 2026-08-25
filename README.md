@@ -46,7 +46,7 @@ This survey analyzes the evolutionary trajectory of general-purpose embodied int
 <img src="assets/overview.png" width="100%">
 
 <p align="center">
-Fig. 1. Chronological roadmap and key milestones of VLAs and WAM (2022–2026). The figure depicts the four-stage evolution of embodied policy models—progressing from early language-conditioned control, open generalist VLAs, and reasoning-enhanced architectures, to video- and world-aware agents leveraging world dynamics.
+Fig. 1. Chronological roadmap and key milestones of VLAs and WAMs (2022–2026). The figure depicts the four-stage evolution of embodied policy models—progressing from early language-conditioned control, open generalist VLAs, and reasoning-enhanced architectures, to video- and world-aware agents leveraging world dynamics.
 </p>
 
 ---
@@ -87,7 +87,7 @@ Fig. 1. Chronological roadmap and key milestones of VLAs and WAM (2022–2026). 
 ## 🧩 VLA Architecture & Action Generation
 
 
-VLAs have evolved from action-sequence prediction models toward predictive embodied models that incorporate future dynamics and world-state reasoning.
+Recent VLAs are being extended beyond action prediction toward predictive embodied models with future dynamics and world-state reasoning.
 
 
 This section reviews four major model paradigms:
