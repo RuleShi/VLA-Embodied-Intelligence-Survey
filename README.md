@@ -533,9 +533,7 @@ Synthetic data should move beyond low-cost scaling toward physically credible, t
 ## 📖 Citation
 
 
-If you use this survey, please cite the manuscript by **Jiaxin Zhuang, Tao Zhou, Rule Shi, Yunlong Liu, Qinghui Chen, Zekai Zhang, Wei Zhang, Runmin Cong, Shengyong Chen, and Jinglin Zhang**, titled *Multi-Paradigm Approaches Toward General-Purpose Embodied Intelligence: Panoramic Overview and Evolutionary Trajectory*. The linked PDF is the reference for the current author list and title.
-
-Formal publication metadata and BibTeX will be added when available.
+If you use this survey, please cite 
 
 
 <a id="paper"></a>
