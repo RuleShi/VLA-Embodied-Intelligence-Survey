@@ -2,6 +2,31 @@
 
 ### ⭐ Give us a star if you find this survey useful! ⭐
 
+
+<p align="center">
+  Jiaxin Zhuang<sup>1</sup> ·
+  Tao Zhou<sup>1</sup> ·
+  Rule Shi<sup>1</sup> ·
+  Yunlong Liu<sup>1</sup> ·
+  Qinghui Chen<sup>1</sup><br>
+  Zekai Zhang<sup>1</sup> ·
+  Runmin Cong<sup>1</sup> ·
+  Wei Zhang<sup>1</sup> ·
+  Shengyong Chen<sup>2</sup> ·
+  Jinglin Zhang<sup>1,*</sup>
+</p>
+
+<p align="center">
+  <sup>1</sup> Shandong University, China<br>
+  <sup>2</sup> Tianjin University of Technology, China
+</p>
+
+<p align="center">
+  <sup>*</sup> Corresponding author:
+  <a href="mailto:jinglin.zhang@sdu.edu.cn">Jinglin Zhang</a>
+</p>
+
+
 This repository accompanies **Multi-Paradigm Approaches Toward General-Purpose Embodied Intelligence: Panoramic Overview and Evolutionary Trajectory**. The survey examines how **action-generation architectures, deployment efficiency, scene generalization, and predictive modeling** jointly shape the capabilities and real-world applicability of Vision-Language-Action (VLA) models.
 
 We review core VLA components and action decoders, clarify the relationships among VLAs, Video-Action Models (VAMs), and World Action Models (WAMs), and discuss benchmarks, capability enhancement, application requirements, and future research directions. No single action-generation paradigm is uniformly preferable: semantic modeling, control precision, and inference cost must be balanced for the target task.
