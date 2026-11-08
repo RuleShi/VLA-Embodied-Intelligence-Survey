@@ -533,7 +533,7 @@ Synthetic data should move beyond low-cost scaling toward physically credible, t
 ## 📖 Citation
 
 
-If you use this survey, please cite 
+If you use this survey, please cite .
 
 
 <a id="paper"></a>
