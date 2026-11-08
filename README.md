@@ -65,8 +65,7 @@ The [online leaderboard](https://embodiedbench.vercel.app/en) complements the su
 - [🚧 Core Challenges](#challenges)
 - [🏭 Applications](#applications)
 - [🔭 Future Outlook](#future-directions)
-- [📖 Citation](#citation)
-- [📄 Paper](#paper)
+
 
 <a id="vla-architecture-action-generation"></a>
 
@@ -530,14 +529,9 @@ Synthetic data should move beyond low-cost scaling toward physically credible, t
 
 <a id="citation"></a>
 
-## 📖 Citation
 
-
-If you use this survey, please cite .
 
 
 <a id="paper"></a>
 
-## 📄 Paper
 
-📥 [Download PDF](paper/VLA_Embodied_Intelligence_Survey.pdf)
