@@ -1,27 +1,6 @@
 # 🤖 Multi-Paradigm Approaches Toward General-Purpose Embodied Intelligence: Panoramic Overview and Evolutionary Trajectory
 
-<p align="center">
-  Jiaxin Zhuang<sup>1</sup> ·
-  Tao Zhou<sup>1</sup> ·
-  Rule Shi<sup>1</sup> ·
-  Yunlong Liu<sup>1</sup> ·
-  Qinghui Chen<sup>1</sup><br>
-  Zekai Zhang<sup>1</sup> ·
-  Runmin Cong<sup>1</sup> ·
-  Wei Zhang<sup>1</sup> ·
-  Shengyong Chen<sup>2</sup> ·
-  Jinglin Zhang<sup>1,*</sup>
-</p>
 
-<p align="center">
-  <sup>1</sup> Shandong University, China<br>
-  <sup>2</sup> Tianjin University of Technology, China
-</p>
-
-<p align="center">
-  <sup>*</sup> Corresponding author:
-  <a href="mailto:jinglin.zhang@sdu.edu.cn">Jinglin Zhang</a>
-</p>
 
 ### ⭐ Give us a star if you find this survey useful! ⭐
 
