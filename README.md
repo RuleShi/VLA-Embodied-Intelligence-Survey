@@ -1,8 +1,5 @@
 # 🤖 Multi-Paradigm Approaches Toward General-Purpose Embodied Intelligence: Panoramic Overview and Evolutionary Trajectory
 
-### ⭐ Give us a star if you find this survey useful! ⭐
-
-
 <p align="center">
   Jiaxin Zhuang<sup>1</sup> ·
   Tao Zhou<sup>1</sup> ·
@@ -25,6 +22,9 @@
   <sup>*</sup> Corresponding author:
   <a href="mailto:jinglin.zhang@sdu.edu.cn">Jinglin Zhang</a>
 </p>
+
+### ⭐ Give us a star if you find this survey useful! ⭐
+
 
 
 This repository accompanies **Multi-Paradigm Approaches Toward General-Purpose Embodied Intelligence: Panoramic Overview and Evolutionary Trajectory**. The survey examines how **action-generation architectures, deployment efficiency, scene generalization, and predictive modeling** jointly shape the capabilities and real-world applicability of Vision-Language-Action (VLA) models.
